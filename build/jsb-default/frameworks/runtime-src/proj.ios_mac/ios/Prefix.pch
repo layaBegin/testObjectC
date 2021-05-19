@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'hello_world' target in the 'hello_world' project
+// Prefix header for all source files of the 'testShareTrace' target in the 'testShareTrace' project
 //
 
 #ifdef __OBJC__

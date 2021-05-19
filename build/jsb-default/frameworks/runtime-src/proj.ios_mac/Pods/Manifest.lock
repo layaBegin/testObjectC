@@ -1,0 +1,16 @@
+PODS:
+  - SharetraceSDK (2.0.0)
+
+DEPENDENCIES:
+  - SharetraceSDK (~> 2.0.0)
+
+SPEC REPOS:
+  trunk:
+    - SharetraceSDK
+
+SPEC CHECKSUMS:
+  SharetraceSDK: 0927bccea0cd721a05ba360858c26db260b728b4
+
+PODFILE CHECKSUM: 0066fa4e41675135cb61c046b3c6bff999baf3a7
+
+COCOAPODS: 1.10.1

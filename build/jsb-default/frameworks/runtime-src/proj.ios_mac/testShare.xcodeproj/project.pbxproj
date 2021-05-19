@@ -66,6 +66,7 @@
 		AB45A1011D34F7CC00033ACB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB45A1001D34F7CC00033ACB /* SystemConfiguration.framework */; };
 		AB45A1031D34F7E100033ACB /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB45A1021D34F7E100033ACB /* GameController.framework */; };
 		ABE456E71D34F87F00F1F400 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB45A0FE1D34F7C000033ACB /* MobileCoreServices.framework */; };
+		B5CFFCE40869B049F310BB0B /* Pods_testShareTrace_desktop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F8319F4F30F84EB66FC58A /* Pods_testShareTrace_desktop.framework */; };
 		BA3A85EC1A724AE900924D24 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3A85EB1A724AE900924D24 /* Security.framework */; };
 		BAEE4D841AC40C11003BEB0F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEE4D831AC40C11003BEB0F /* Security.framework */; };
 		C03780EB18BEE0E400FE4F13 /* src in Resources */ = {isa = PBXBuildFile; fileRef = C03780EA18BEE0E400FE4F13 /* src */; };
@@ -76,6 +77,7 @@
 		D454520C156E22BD00887EB5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D454520B156E22BD00887EB5 /* libz.dylib */; };
 		D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4545215156E28EF00887EB5 /* AppDelegate.cpp */; };
 		D6B061241803AB9F0077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B061231803AB9F0077942B /* CoreMotion.framework */; };
+		ECB268887A6EE777BCA843AE /* Pods_testShareTrace_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831B5C2F267E9F9B04E4AAAC /* Pods_testShareTrace_mobile.framework */; };
 		FA676C761C71AFA200E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C751C71AFA200E091E3 /* libiconv.dylib */; };
 		FA676C781C71AFAB00E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C771C71AFAB00E091E3 /* libiconv.dylib */; };
 /* End PBXBuildFile section */
@@ -130,6 +132,7 @@
 		1AC6FB34180E9ACB004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "../../cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
 		1AFFCD831F7A5DCD00628F2C /* LaunchScreenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreenBackground.png; path = ios/LaunchScreenBackground.png; sourceTree = "<group>"; };
 		1AFFCD841F7A5DCD00628F2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ios/Images.xcassets; sourceTree = "<group>"; };
+		2299D23D8701EECA8D89B26F /* Pods-testShareTrace-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testShareTrace-mobile.release.xcconfig"; path = "Target Support Files/Pods-testShareTrace-mobile/Pods-testShareTrace-mobile.release.xcconfig"; sourceTree = "<group>"; };
 		22CC756121BA527F00FBF2F7 /* SDKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDKWrapper.m; path = ios/SDKWrapper.m; sourceTree = "<group>"; };
 		22CC756221BA527F00FBF2F7 /* SDKWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDKWrapper.h; path = ios/SDKWrapper.h; sourceTree = "<group>"; };
 		22CC756421BA527F00FBF2F7 /* SDKDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKDelegate.h; sourceTree = "<group>"; };
@@ -146,7 +149,7 @@
 		4D697BD91CBD301C00A5AF29 /* libjs_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjs_static.a; path = "../../cocos2d-x/external/ios/libs/libjs_static.a"; sourceTree = "<group>"; };
 		4D697BDC1CBD303100A5AF29 /* libjs_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjs_static.a; path = "../../cocos2d-x/external/mac/libs/libjs_static.a"; sourceTree = "<group>"; };
 		502380DB17EBB88200990C9B /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
-		509D4AAA17EBB24E00697056 /* hello_world-desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello_world-desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509D4AAA17EBB24E00697056 /* testShareTrace-desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testShareTrace-desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		509D4AAB17EBB2AB00697056 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = "<group>"; };
 		509D4AAC17EBB2AB00697056 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppController.mm; path = ios/AppController.mm; sourceTree = "<group>"; };
 		509D4AB717EBB2AB00697056 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ios/Info.plist; sourceTree = "<group>"; };
@@ -160,7 +163,10 @@
 		509D4AE617EBB81800697056 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		509D4AE817EBB82000697056 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		509D4AEA17EBB82600697056 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		A922753D1517C094001B78AA /* hello_world-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello_world-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7DCA500D21A9155A6C1C49 /* Pods-testShareTrace-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testShareTrace-mobile.debug.xcconfig"; path = "Target Support Files/Pods-testShareTrace-mobile/Pods-testShareTrace-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		649E62EAC618039B401CD581 /* Pods-testShareTrace-desktop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testShareTrace-desktop.release.xcconfig"; path = "Target Support Files/Pods-testShareTrace-desktop/Pods-testShareTrace-desktop.release.xcconfig"; sourceTree = "<group>"; };
+		831B5C2F267E9F9B04E4AAAC /* Pods_testShareTrace_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testShareTrace_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A922753D1517C094001B78AA /* testShareTrace-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testShareTrace-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92275411517C094001B78AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A92275431517C094001B78AA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A92275451517C094001B78AA /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -174,6 +180,7 @@
 		AB45A0FE1D34F7C000033ACB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		AB45A1001D34F7CC00033ACB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		AB45A1021D34F7E100033ACB /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		B9F8319F4F30F84EB66FC58A /* Pods_testShareTrace_desktop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testShareTrace_desktop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3A85EB1A724AE900924D24 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		BA4E718019EB6E3E00932425 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		BA4E718219EB6E4600932425 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
@@ -185,6 +192,7 @@
 		D4545215156E28EF00887EB5 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		D4545216156E28EF00887EB5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6B061231803AB9F0077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		E5C7C9854E2B1930F94055FA /* Pods-testShareTrace-desktop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testShareTrace-desktop.debug.xcconfig"; path = "Target Support Files/Pods-testShareTrace-desktop/Pods-testShareTrace-desktop.debug.xcconfig"; sourceTree = "<group>"; };
 		FA676C751C71AFA200E091E3 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		FA676C771C71AFAB00E091E3 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -214,6 +222,7 @@
 				509D4A8E17EBB24E00697056 /* AVFoundation.framework in Frameworks */,
 				509D4A9017EBB24E00697056 /* Foundation.framework in Frameworks */,
 				509D4A9117EBB24E00697056 /* CoreGraphics.framework in Frameworks */,
+				B5CFFCE40869B049F310BB0B /* Pods_testShareTrace_desktop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +256,7 @@
 				A922754C1517C094001B78AA /* UIKit.framework in Frameworks */,
 				A922754E1517C094001B78AA /* Foundation.framework in Frameworks */,
 				A92275501517C094001B78AA /* CoreGraphics.framework in Frameworks */,
+				ECB268887A6EE777BCA843AE /* Pods_testShareTrace_mobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +318,15 @@
 				509D4ACA17EBB2BE00697056 /* mac */,
 				A922753E1517C094001B78AA /* Products */,
 				15628F5B15F0F5C2000CF24B /* Resources */,
+				EE6C14F63CB0839B4EAD43A4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		A922753E1517C094001B78AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A922753D1517C094001B78AA /* hello_world-mobile.app */,
-				509D4AAA17EBB24E00697056 /* hello_world-desktop.app */,
+				A922753D1517C094001B78AA /* testShareTrace-mobile.app */,
+				509D4AAA17EBB24E00697056 /* testShareTrace-desktop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -363,6 +374,8 @@
 				A922754B1517C094001B78AA /* UIKit.framework */,
 				A922754D1517C094001B78AA /* Foundation.framework */,
 				A922754F1517C094001B78AA /* CoreGraphics.framework */,
+				B9F8319F4F30F84EB66FC58A /* Pods_testShareTrace_desktop.framework */,
+				831B5C2F267E9F9B04E4AAAC /* Pods_testShareTrace_mobile.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -400,13 +413,26 @@
 			path = ../Classes;
 			sourceTree = "<group>";
 		};
+		EE6C14F63CB0839B4EAD43A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C7C9854E2B1930F94055FA /* Pods-testShareTrace-desktop.debug.xcconfig */,
+				649E62EAC618039B401CD581 /* Pods-testShareTrace-desktop.release.xcconfig */,
+				5E7DCA500D21A9155A6C1C49 /* Pods-testShareTrace-mobile.debug.xcconfig */,
+				2299D23D8701EECA8D89B26F /* Pods-testShareTrace-mobile.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		509D4A7517EBB24E00697056 /* hello_world-desktop */ = {
+		509D4A7517EBB24E00697056 /* testShareTrace-desktop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 509D4AA717EBB24E00697056 /* Build configuration list for PBXNativeTarget "hello_world-desktop" */;
+			buildConfigurationList = 509D4AA717EBB24E00697056 /* Build configuration list for PBXNativeTarget "testShareTrace-desktop" */;
 			buildPhases = (
+				7C355B3B593ED1CF6C479C9B /* [CP] Check Pods Manifest.lock */,
 				509D4A8017EBB24E00697056 /* Sources */,
 				509D4A9317EBB24E00697056 /* Resources */,
 				509D4A8217EBB24E00697056 /* Frameworks */,
@@ -416,27 +442,29 @@
 			dependencies = (
 				1A676820180E9BF70076BC67 /* PBXTargetDependency */,
 			);
-			name = "hello_world-desktop";
-			productName = hello_world;
-			productReference = 509D4AAA17EBB24E00697056 /* hello_world-desktop.app */;
+			name = "testShareTrace-desktop";
+			productName = testShareTrace;
+			productReference = 509D4AAA17EBB24E00697056 /* testShareTrace-desktop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A922753C1517C094001B78AA /* hello_world-mobile */ = {
+		A922753C1517C094001B78AA /* testShareTrace-mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A92277001517C097001B78AA /* Build configuration list for PBXNativeTarget "hello_world-mobile" */;
+			buildConfigurationList = A92277001517C097001B78AA /* Build configuration list for PBXNativeTarget "testShareTrace-mobile" */;
 			buildPhases = (
+				166BA3BD6DFB490A00FA5CAC /* [CP] Check Pods Manifest.lock */,
 				A92275391517C094001B78AA /* Sources */,
 				A922753A1517C094001B78AA /* Frameworks */,
 				A922753B1517C094001B78AA /* Resources */,
+				FE8A1465505B878105FFE433 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				1A67682F180E9C110076BC67 /* PBXTargetDependency */,
 			);
-			name = "hello_world-mobile";
-			productName = hello_world;
-			productReference = A922753D1517C094001B78AA /* hello_world-mobile.app */;
+			name = "testShareTrace-mobile";
+			productName = testShareTrace;
+			productReference = A922753D1517C094001B78AA /* testShareTrace-mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -448,11 +476,11 @@
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					A922753C1517C094001B78AA = {
-						DevelopmentTeam = 26GLVSMTT6;
+						DevelopmentTeam = Q9Q94U7W5H;
 					};
 				};
 			};
-			buildConfigurationList = A92275371517C094001B78AA /* Build configuration list for PBXProject "hello_world" */;
+			buildConfigurationList = A92275371517C094001B78AA /* Build configuration list for PBXProject "testShare" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -473,8 +501,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				A922753C1517C094001B78AA /* hello_world-mobile */,
-				509D4A7517EBB24E00697056 /* hello_world-desktop */,
+				A922753C1517C094001B78AA /* testShareTrace-mobile */,
+				509D4A7517EBB24E00697056 /* testShareTrace-desktop */,
 			);
 		};
 /* End PBXProject section */
@@ -528,6 +556,71 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		166BA3BD6DFB490A00FA5CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testShareTrace-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C355B3B593ED1CF6C479C9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testShareTrace-desktop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8A1465505B878105FFE433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testShareTrace-mobile/Pods-testShareTrace-mobile-frameworks.sh",
+				"${PODS_ROOT}/SharetraceSDK/lib/SharetraceSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SharetraceSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testShareTrace-mobile/Pods-testShareTrace-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		509D4A8017EBB24E00697056 /* Sources */ = {
@@ -699,7 +792,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = 26GLVSMTT6;
+				DEVELOPMENT_TEAM = Q9Q94U7W5H;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -718,6 +811,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.duohuobi0519;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -734,7 +828,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = 26GLVSMTT6;
+				DEVELOPMENT_TEAM = Q9Q94U7W5H;
 				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -752,6 +846,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.duohuobi0519;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -763,7 +858,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		509D4AA717EBB24E00697056 /* Build configuration list for PBXNativeTarget "hello_world-desktop" */ = {
+		509D4AA717EBB24E00697056 /* Build configuration list for PBXNativeTarget "testShareTrace-desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				509D4AA817EBB24E00697056 /* Debug */,
@@ -772,7 +867,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A92275371517C094001B78AA /* Build configuration list for PBXProject "hello_world" */ = {
+		A92275371517C094001B78AA /* Build configuration list for PBXProject "testShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A92276FE1517C097001B78AA /* Debug */,
@@ -781,7 +876,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A92277001517C097001B78AA /* Build configuration list for PBXNativeTarget "hello_world-mobile" */ = {
+		A92277001517C097001B78AA /* Build configuration list for PBXNativeTarget "testShareTrace-mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A92277011517C097001B78AA /* Debug */,

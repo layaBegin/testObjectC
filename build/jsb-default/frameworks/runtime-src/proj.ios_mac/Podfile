@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'testShareTrace-desktop' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for testShareTrace-desktop
+
+end
+
+target 'testShareTrace-mobile' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for testShareTrace-mobile
+    pod 'SharetraceSDK', '~> 2.0.0'
+
+
+end
