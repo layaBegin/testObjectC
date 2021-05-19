@@ -78,19 +78,19 @@
         "__id__": 8
       },
       {
-        "__id__": 10
+        "__id__": 11
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 12
-      },
-      {
         "__id__": 13
       },
       {
         "__id__": 14
+      },
+      {
+        "__id__": 15
       }
     ],
     "_prefab": null,
@@ -180,7 +180,7 @@
       "array": [
         0,
         0,
-        351.60631393648214,
+        347.5197565623743,
         0,
         0,
         0,
@@ -375,6 +375,9 @@
     "_components": [
       {
         "__id__": 9
+      },
+      {
+        "__id__": 10
       }
     ],
     "_prefab": null,
@@ -400,8 +403,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        50,
+        4.152,
+        187.012,
         0,
         0,
         0,
@@ -458,6 +461,23 @@
     "_id": "42SM+92GZAXYsjLj89MLM+"
   },
   {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 8
+    },
+    "_enabled": true,
+    "_defaultClip": null,
+    "_clips": [
+      {
+        "__uuid__": "d5ee365c-b0c1-4948-b2b0-bc0602721676"
+      }
+    ],
+    "playOnLoad": true,
+    "_id": "76i51FeVVG1KIq+/wbtw7F"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "label",
     "_objFlags": 0,
@@ -468,7 +488,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 11
+        "__id__": 12
       }
     ],
     "_prefab": null,
@@ -482,8 +502,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 146.81,
-      "height": 75.6
+      "width": 933.37,
+      "height": 255.6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -494,8 +514,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -180,
+        -130.785,
+        -99.039,
         0,
         0,
         0,
@@ -524,7 +544,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 10
+      "__id__": 11
     },
     "_enabled": true,
     "_materials": [
@@ -533,8 +553,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "Label",
-    "_N$string": "Label",
+    "_string": "1，接入shareTrace\n2，接入极光\n3，接入相机，存储等权限，\n4，接入微信分享，微信登陆等功能",
+    "_N$string": "1，接入shareTrace\n2，接入极光\n3，接入相机，存储等权限，\n4，接入微信分享，微信登陆等功能",
     "_fontSize": 60,
     "_lineHeight": 60,
     "_enableWrapText": true,
@@ -544,7 +564,7 @@
     "_batchAsBitmap": false,
     "_styleFlags": 0,
     "_underlineHeight": 0,
-    "_N$horizontalAlign": 1,
+    "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
@@ -577,7 +597,7 @@
     },
     "_enabled": true,
     "label": {
-      "__id__": 11
+      "__id__": 12
     },
     "text": "Hello, World!",
     "_id": "dcGJ+cSA5D7qNtScKfLjJJ"
