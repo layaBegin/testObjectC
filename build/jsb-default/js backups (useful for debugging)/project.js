@@ -1,32 +1,32 @@
-window.__require = function e(t, r, n) {
-function c(l, i) {
-if (!r[l]) {
+window.__require = function e(r, t, n) {
+function c(l, u) {
 if (!t[l]) {
-var u = l.split("/");
-u = u[u.length - 1];
-if (!t[u]) {
+if (!r[l]) {
+var i = l.split("/");
+i = i[i.length - 1];
+if (!r[i]) {
 var _ = "function" == typeof __require && __require;
-if (!i && _) return _(u, !0);
-if (o) return o(u, !0);
+if (!u && _) return _(i, !0);
+if (o) return o(i, !0);
 throw new Error("Cannot find module '" + l + "'");
 }
-l = u;
+l = i;
 }
-var s = r[l] = {
+var s = t[l] = {
 exports: {}
 };
-t[l][0].call(s.exports, function(e) {
-return c(t[l][1][e] || e);
-}, s, s.exports, e, t, r, n);
+r[l][0].call(s.exports, function(e) {
+return c(r[l][1][e] || e);
+}, s, s.exports, e, r, t, n);
 }
-return r[l].exports;
+return t[l].exports;
 }
 for (var o = "function" == typeof __require && __require, l = 0; l < n.length; l++) c(n[l]);
 return c;
 }({
-HelloWorld: [ function(e, t, r) {
+HelloWorld: [ function(e, r, t) {
 "use strict";
-cc._RF.push(t, "280c3rsZJJKnZ9RqbALVwtK", "HelloWorld");
+cc._RF.push(r, "280c3rsZJJKnZ9RqbALVwtK", "HelloWorld");
 cc.Class({
 extends: cc.Component,
 properties: {
@@ -36,16 +36,14 @@ type: cc.Label
 },
 text: "Hello, World!"
 },
-onLoad: function() {
-this.label.string = this.text;
-},
+onLoad: function() {},
 update: function(e) {}
 });
 cc._RF.pop();
 }, {} ],
-"use_v2.1-2.2.1_cc.Toggle_event": [ function(e, t, r) {
+"use_v2.1-2.2.1_cc.Toggle_event": [ function(e, r, t) {
 "use strict";
-cc._RF.push(t, "84bc1D1nVlDMbvSqc1JZyQ2", "use_v2.1-2.2.1_cc.Toggle_event");
+cc._RF.push(r, "84bc1D1nVlDMbvSqc1JZyQ2", "use_v2.1-2.2.1_cc.Toggle_event");
 cc.Toggle && (cc.Toggle._triggerEventInScript_isChecked = !0);
 cc._RF.pop();
 }, {} ]

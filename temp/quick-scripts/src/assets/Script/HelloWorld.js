@@ -15,8 +15,7 @@ cc.Class({
     text: 'Hello, World!'
   },
   // use this for initialization
-  onLoad: function onLoad() {
-    this.label.string = this.text;
+  onLoad: function onLoad() {//this.label.string = this.text;
   },
   // called every frame
   update: function update(dt) {}

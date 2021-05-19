@@ -21,3 +21,8 @@ bin-release/
 /local/
 /build/jsb-default/src/
 /build/jsb-default/res/
+library/
+temp/
+local/
+build/jsb-default/src/
+build/jsb-default/res/
