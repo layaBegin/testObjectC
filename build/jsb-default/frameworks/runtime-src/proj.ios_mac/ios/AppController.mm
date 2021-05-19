@@ -30,7 +30,7 @@
 #import "RootViewController.h"
 #import "SDKWrapper.h"
 #import "platform/ios/CCEAGLView-ios.h"
-
+#import <SharetraceSDK/SharetraceSDK.h>
 
 
 using namespace cocos2d;
@@ -49,6 +49,9 @@ Application* app = nullptr;
     float scale = [[UIScreen mainScreen] scale];
     CGRect bounds = [[UIScreen mainScreen] bounds];
     window = [[UIWindow alloc] initWithFrame: bounds];
+    
+    //shareTrace
+    [Sharetrace initWithDelegate:self];
     
     // cocos2d application instance
     app = new AppDelegate(bounds.size.width * scale, bounds.size.height * scale);

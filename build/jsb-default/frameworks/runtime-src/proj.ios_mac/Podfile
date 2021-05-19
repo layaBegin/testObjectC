@@ -14,7 +14,7 @@ target 'testShareTrace-mobile' do
   use_frameworks!
 
   # Pods for testShareTrace-mobile
-    pod 'SharetraceSDK', '~> 2.0.0'
+  pod 'SharetraceSDK', '~> 2.0.0'
 
 
 end

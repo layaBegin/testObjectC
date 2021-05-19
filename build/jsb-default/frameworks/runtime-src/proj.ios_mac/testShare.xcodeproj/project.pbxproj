@@ -74,10 +74,10 @@
 		C06E23CC18CEFE680093C81A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C06E23CB18CEFE680093C81A /* main.cpp */; };
 		C0799CB918BAE62000E9C828 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C0799CB518BAE62000E9C828 /* res */; };
 		C0799CBA18BAE62000E9C828 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C0799CB518BAE62000E9C828 /* res */; };
+		C677B9AC64B50B6D1DEF529C /* Pods_testShareTrace_desktop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBE257A265521C600ED33A6 /* Pods_testShareTrace_desktop.framework */; };
 		D454520C156E22BD00887EB5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D454520B156E22BD00887EB5 /* libz.dylib */; };
 		D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4545215156E28EF00887EB5 /* AppDelegate.cpp */; };
 		D6B061241803AB9F0077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B061231803AB9F0077942B /* CoreMotion.framework */; };
-		ECB268887A6EE777BCA843AE /* Pods_testShareTrace_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831B5C2F267E9F9B04E4AAAC /* Pods_testShareTrace_mobile.framework */; };
 		FA676C761C71AFA200E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C751C71AFA200E091E3 /* libiconv.dylib */; };
 		FA676C781C71AFAB00E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C771C71AFAB00E091E3 /* libiconv.dylib */; };
 /* End PBXBuildFile section */
@@ -195,6 +195,8 @@
 		E5C7C9854E2B1930F94055FA /* Pods-testShareTrace-desktop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testShareTrace-desktop.debug.xcconfig"; path = "Target Support Files/Pods-testShareTrace-desktop/Pods-testShareTrace-desktop.debug.xcconfig"; sourceTree = "<group>"; };
 		FA676C751C71AFA200E091E3 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		FA676C771C71AFAB00E091E3 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		FCBE25742655213B00ED33A6 /* Pods_testShareTrace_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_testShareTrace_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBE257A265521C600ED33A6 /* Pods_testShareTrace_desktop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_testShareTrace_desktop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 				509D4A9017EBB24E00697056 /* Foundation.framework in Frameworks */,
 				509D4A9117EBB24E00697056 /* CoreGraphics.framework in Frameworks */,
 				B5CFFCE40869B049F310BB0B /* Pods_testShareTrace_desktop.framework in Frameworks */,
+				C677B9AC64B50B6D1DEF529C /* Pods_testShareTrace_desktop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +259,6 @@
 				A922754C1517C094001B78AA /* UIKit.framework in Frameworks */,
 				A922754E1517C094001B78AA /* Foundation.framework in Frameworks */,
 				A92275501517C094001B78AA /* CoreGraphics.framework in Frameworks */,
-				ECB268887A6EE777BCA843AE /* Pods_testShareTrace_mobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +321,7 @@
 				A922753E1517C094001B78AA /* Products */,
 				15628F5B15F0F5C2000CF24B /* Resources */,
 				EE6C14F63CB0839B4EAD43A4 /* Pods */,
+				FCBE257F2655223F00ED33A6 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -334,6 +337,7 @@
 		A92275401517C094001B78AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCBE25742655213B00ED33A6 /* Pods_testShareTrace_mobile.framework */,
 				467AF60F232881BA00770112 /* CoreMedia.framework */,
 				467AF60D232881B100770112 /* AVKit.framework */,
 				467AF6042321FBD400770112 /* WebKit.framework */,
@@ -421,8 +425,15 @@
 				5E7DCA500D21A9155A6C1C49 /* Pods-testShareTrace-mobile.debug.xcconfig */,
 				2299D23D8701EECA8D89B26F /* Pods-testShareTrace-mobile.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCBE257F2655223F00ED33A6 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				FCBE257A265521C600ED33A6 /* Pods_testShareTrace_desktop.framework */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -806,6 +817,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x/external/ios/libs";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -841,6 +853,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x/external/ios/libs";
 				OTHER_LDFLAGS = (
 					"-ObjC",

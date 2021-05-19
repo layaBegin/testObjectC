@@ -24,10 +24,10 @@
  THE SOFTWARE.
  ****************************************************************************/
 #import <UIKit/UIKit.h>
-
+#import <SharetraceSDK/SharetraceSDK.h>
 @class RootViewController;
 
-@interface AppController : NSObject <UIApplicationDelegate>
+@interface AppController : NSObject <UIApplicationDelegate,SharetraceDelegate>
 {
 }
 
