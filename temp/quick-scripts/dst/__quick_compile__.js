@@ -1,6 +1,6 @@
 
 (function () {
-var scripts = [{"deps":{"./assets/Script/HelloWorld":1,"./assets/migration/use_v2.1-2.2.1_cc.Toggle_event":2},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/Script/HelloWorld.js"},{"deps":{},"path":"preview-scripts/assets/migration/use_v2.1-2.2.1_cc.Toggle_event.js"}];
+var scripts = [{"deps":{"./assets/migration/use_v2.1-2.2.1_cc.Toggle_event":1,"./assets/Script/HelloWorld":2},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/migration/use_v2.1-2.2.1_cc.Toggle_event.js"},{"deps":{},"path":"preview-scripts/assets/Script/HelloWorld.js"}];
 var entries = ["preview-scripts/__qc_index__.js"];
 
 /**
