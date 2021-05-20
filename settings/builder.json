@@ -24,7 +24,7 @@
     "packageName": "org.cocos2d.helloworld"
   },
   "ios": {
-    "packageName": "org.cocos2d.helloworld"
+    "packageName": "com.test.duohuobi0519"
   },
   "mac": {
     "packageName": "org.cocos2d.helloworld"

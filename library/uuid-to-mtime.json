@@ -520,13 +520,13 @@
     "relativePath": "model/primitives.fbx"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1621402826459,
-    "meta": 1621402893570,
+    "asset": 1621503540443,
+    "meta": 1621503540456,
     "relativePath": "Scene/helloworld.fire"
   },
   "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
-    "asset": 1621402919774,
-    "meta": 1621403091149,
+    "asset": 1621504610944,
+    "meta": 1621504614178,
     "relativePath": "Script/HelloWorld.js"
   }
 }

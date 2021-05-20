@@ -156,3 +156,514 @@
 2021-05-19T07:31:50.724Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
 2021-05-19T07:31:50.765Z - normal: Checked Python Version [2.7.16]
 2021-05-19T07:31:52.207Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
+2021-05-20T09:25:27.710Z - normal: Start building with options : {
+  "actualPlatform": "ios",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/yunteng/Documents/cocosProject/testObjectC/build",
+  "buildScriptsOnly": false,
+  "debug": false,
+  "dest": "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "com.test.duohuobi0519"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "default",
+  "title": "testShare",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "4df33824-b6e9-40",
+  "zipCompressJs": true,
+  "project": "/Users/yunteng/Documents/cocosProject/testObjectC",
+  "projectName": "testShare",
+  "debugBuildWorker": false
+}
+2021-05-20T09:25:27.711Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-20T09:25:27.711Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
+2021-05-20T09:25:27.712Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
+2021-05-20T09:25:27.806Z - normal: Checked Python Version [2.7.16]
+2021-05-20T09:25:32.996Z - normal: Start building assets
+2021-05-20T09:25:32.996Z - normal: Start spawn build-worker
+2021-05-20T09:25:33.671Z - normal: Finish spawn build-worker
+2021-05-20T09:25:33.672Z - normal: Start init build-worker
+2021-05-20T09:25:36.359Z - normal: Finish init build-worker
+2021-05-20T09:25:36.359Z - normal: Start build-assets in worker
+2021-05-20T09:25:36.396Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2021-05-20T09:25:36.540Z - normal: Finish build-assets in worker
+2021-05-20T09:25:36.542Z - normal: Finish building assets
+2021-05-20T09:25:36.542Z - normal: Start building plugin scripts
+2021-05-20T09:25:36.606Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-20T09:25:36.660Z - normal: Checked Python Version [2.7.16]
+2021-05-20T09:25:38.054Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
+2021-05-20T09:31:12.491Z - normal: Start building with options : {
+  "actualPlatform": "ios",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/yunteng/Documents/cocosProject/testObjectC/build",
+  "buildScriptsOnly": false,
+  "debug": true,
+  "dest": "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "com.test.duohuobi0519"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "default",
+  "title": "testShare",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "4df33824-b6e9-40",
+  "zipCompressJs": true,
+  "project": "/Users/yunteng/Documents/cocosProject/testObjectC",
+  "projectName": "testShare",
+  "debugBuildWorker": false
+}
+2021-05-20T09:31:12.492Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-20T09:31:12.492Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
+2021-05-20T09:31:12.493Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
+2021-05-20T09:31:12.554Z - normal: Checked Python Version [2.7.16]
+2021-05-20T09:31:17.129Z - normal: Start building assets
+2021-05-20T09:31:17.129Z - normal: Start spawn build-worker
+2021-05-20T09:31:17.760Z - normal: Finish spawn build-worker
+2021-05-20T09:31:17.760Z - normal: Start init build-worker
+2021-05-20T09:31:20.123Z - normal: Finish init build-worker
+2021-05-20T09:31:20.123Z - normal: Start build-assets in worker
+2021-05-20T09:31:20.157Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2021-05-20T09:31:20.334Z - normal: Finish build-assets in worker
+2021-05-20T09:31:20.338Z - normal: Finish building assets
+2021-05-20T09:31:20.339Z - normal: Start building plugin scripts
+2021-05-20T09:31:20.446Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-20T09:31:20.460Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
+2021-05-20T09:36:59.171Z - normal: Start building with options : {
+  "actualPlatform": "ios",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/yunteng/Documents/cocosProject/testObjectC/build",
+  "buildScriptsOnly": false,
+  "debug": true,
+  "dest": "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "com.test.duohuobi0519"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "default",
+  "title": "testShare",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "4df33824-b6e9-40",
+  "zipCompressJs": true,
+  "project": "/Users/yunteng/Documents/cocosProject/testObjectC",
+  "projectName": "testShare",
+  "debugBuildWorker": false
+}
+2021-05-20T09:36:59.172Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-20T09:36:59.172Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
+2021-05-20T09:36:59.173Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
+2021-05-20T09:36:59.211Z - normal: Checked Python Version [2.7.16]
+2021-05-20T09:37:03.677Z - normal: Start building assets
+2021-05-20T09:37:03.677Z - normal: Start spawn build-worker
+2021-05-20T09:37:04.459Z - normal: Finish spawn build-worker
+2021-05-20T09:37:04.459Z - normal: Start init build-worker
+2021-05-20T09:37:07.325Z - normal: Finish init build-worker
+2021-05-20T09:37:07.325Z - normal: Start build-assets in worker
+2021-05-20T09:37:07.362Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2021-05-20T09:37:07.546Z - normal: Finish build-assets in worker
+2021-05-20T09:37:07.552Z - normal: Finish building assets
+2021-05-20T09:37:07.553Z - normal: Start building plugin scripts
+2021-05-20T09:37:07.620Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-20T09:37:07.646Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
+2021-05-20T09:46:55.357Z - normal: Start building with options : {
+  "actualPlatform": "ios",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/yunteng/Documents/cocosProject/testObjectC/build",
+  "buildScriptsOnly": false,
+  "debug": true,
+  "dest": "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "com.test.duohuobi0519"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "default",
+  "title": "testShare",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "4df33824-b6e9-40",
+  "zipCompressJs": true,
+  "project": "/Users/yunteng/Documents/cocosProject/testObjectC",
+  "projectName": "testShare",
+  "debugBuildWorker": false
+}
+2021-05-20T09:46:55.358Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-20T09:46:55.358Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
+2021-05-20T09:46:55.359Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
+2021-05-20T09:46:55.402Z - normal: Checked Python Version [2.7.16]
+2021-05-20T09:46:59.759Z - normal: Start building assets
+2021-05-20T09:46:59.760Z - normal: Start spawn build-worker
+2021-05-20T09:47:00.427Z - normal: Finish spawn build-worker
+2021-05-20T09:47:00.427Z - normal: Start init build-worker
+2021-05-20T09:47:03.053Z - normal: Finish init build-worker
+2021-05-20T09:47:03.053Z - normal: Start build-assets in worker
+2021-05-20T09:47:03.090Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2021-05-20T09:47:03.259Z - normal: Finish build-assets in worker
+2021-05-20T09:47:03.262Z - normal: Finish building assets
+2021-05-20T09:47:03.262Z - normal: Start building plugin scripts
+2021-05-20T09:47:03.336Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-20T09:47:03.351Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
+2021-05-20T09:53:39.173Z - normal: Start building with options : {
+  "actualPlatform": "ios",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/yunteng/Documents/cocosProject/testObjectC/build",
+  "buildScriptsOnly": false,
+  "debug": true,
+  "dest": "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "com.test.duohuobi0519"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "default",
+  "title": "testShare",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "4df33824-b6e9-40",
+  "zipCompressJs": true,
+  "project": "/Users/yunteng/Documents/cocosProject/testObjectC",
+  "projectName": "testShare",
+  "debugBuildWorker": false
+}
+2021-05-20T09:53:39.174Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-20T09:53:39.174Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
+2021-05-20T09:53:39.175Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
+2021-05-20T09:53:39.224Z - normal: Checked Python Version [2.7.16]
+2021-05-20T09:53:43.870Z - normal: Start building assets
+2021-05-20T09:53:43.870Z - normal: Start spawn build-worker
+2021-05-20T09:53:44.657Z - normal: Finish spawn build-worker
+2021-05-20T09:53:44.657Z - normal: Start init build-worker
+2021-05-20T09:53:47.508Z - normal: Finish init build-worker
+2021-05-20T09:53:47.508Z - normal: Start build-assets in worker
+2021-05-20T09:53:47.547Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2021-05-20T09:53:47.708Z - normal: Finish build-assets in worker
+2021-05-20T09:53:47.714Z - normal: Finish building assets
+2021-05-20T09:53:47.714Z - normal: Start building plugin scripts
+2021-05-20T09:53:47.791Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-20T09:53:47.803Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
+2021-05-20T09:56:59.037Z - normal: Start building with options : {
+  "actualPlatform": "ios",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/yunteng/Documents/cocosProject/testObjectC/build",
+  "buildScriptsOnly": false,
+  "debug": true,
+  "dest": "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "com.test.duohuobi0519"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "default",
+  "title": "testShare",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "4df33824-b6e9-40",
+  "zipCompressJs": true,
+  "project": "/Users/yunteng/Documents/cocosProject/testObjectC",
+  "projectName": "testShare",
+  "debugBuildWorker": false
+}
+2021-05-20T09:56:59.038Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-20T09:56:59.038Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
+2021-05-20T09:56:59.038Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
+2021-05-20T09:56:59.081Z - normal: Checked Python Version [2.7.16]
+2021-05-20T09:57:03.437Z - normal: Start building assets
+2021-05-20T09:57:03.437Z - normal: Start spawn build-worker
+2021-05-20T09:57:04.074Z - normal: Finish spawn build-worker
+2021-05-20T09:57:04.075Z - normal: Start init build-worker
+2021-05-20T09:57:06.685Z - normal: Finish init build-worker
+2021-05-20T09:57:06.686Z - normal: Start build-assets in worker
+2021-05-20T09:57:06.739Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2021-05-20T09:57:07.022Z - normal: Finish build-assets in worker
+2021-05-20T09:57:07.028Z - normal: Finish building assets
+2021-05-20T09:57:07.029Z - normal: Start building plugin scripts
+2021-05-20T09:57:07.088Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-20T09:57:07.104Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
