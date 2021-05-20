@@ -525,8 +525,8 @@
     "relativePath": "Scene/helloworld.fire"
   },
   "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
-    "asset": 1621504610944,
-    "meta": 1621504614178,
+    "asset": 1621504859170,
+    "meta": 1621507412583,
     "relativePath": "Script/HelloWorld.js"
   }
 }

@@ -1,28 +1,28 @@
-window.__require = function e(t, c, n) {
-function o(l, i) {
+window.__require = function e(t, c, r) {
+function n(l, i) {
 if (!c[l]) {
 if (!t[l]) {
-var u = l.split("/");
-u = u[u.length - 1];
-if (!t[u]) {
-var s = "function" == typeof __require && __require;
-if (!i && s) return s(u, !0);
-if (r) return r(u, !0);
+var s = l.split("/");
+s = s[s.length - 1];
+if (!t[s]) {
+var a = "function" == typeof __require && __require;
+if (!i && a) return a(s, !0);
+if (o) return o(s, !0);
 throw new Error("Cannot find module '" + l + "'");
 }
-l = u;
+l = s;
 }
-var _ = c[l] = {
+var u = c[l] = {
 exports: {}
 };
-t[l][0].call(_.exports, function(e) {
-return o(t[l][1][e] || e);
-}, _, _.exports, e, t, c, n);
+t[l][0].call(u.exports, function(e) {
+return n(t[l][1][e] || e);
+}, u, u.exports, e, t, c, r);
 }
 return c[l].exports;
 }
-for (var r = "function" == typeof __require && __require, l = 0; l < n.length; l++) o(n[l]);
-return o;
+for (var o = "function" == typeof __require && __require, l = 0; l < r.length; l++) n(r[l]);
+return n;
 }({
 HelloWorld: [ function(e, t, c) {
 "use strict";
@@ -40,7 +40,15 @@ onLoad: function() {},
 update: function(e) {},
 onBtnClick: function(e, t) {
 cc.log("==点击按钮");
-cc.sys.OS_IOS === cc.sys.os && jsb.reflection.callStaticMethod("NativeOcClass", "callNativeUIWithTitle:title andContent:", "cocos2d-js", "");
+if ("test" === t) {
+if (cc.sys.OS_IOS === cc.sys.os) {
+alert(cc.sys.os);
+var c = jsb.reflection.callStaticMethod("NativeOcClass", "callNativeUIWithTitle:andContent:", "123木头人", "我们的故事，是很长的电影");
+}
+} else if ("sharetrace" === t) {
+c = jsb.reflection.callStaticMethod("SDKManager", "getSharetraceParam");
+cc.log("====sharetrace结果:", c);
+}
 }
 });
 cc._RF.pop();

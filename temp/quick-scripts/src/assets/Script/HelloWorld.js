@@ -29,7 +29,7 @@ cc.Class({
       }
     } else if (param === "sharetrace") {
       var ret = jsb.reflection.callStaticMethod("SDKManager", "getSharetraceParam");
-      cc.log("====sharetrace结果", ret);
+      cc.log("====sharetrace结果:", ret);
     }
   }
 });
