@@ -80,13 +80,12 @@
         "cocos-services"
       ]
     },
-    "window-1621409496747": {},
-    "worker": {}
+    "window-1621502431886": {}
   },
   "panels": {
     "builder": {
-      "x": 312,
-      "y": 127,
+      "x": 374,
+      "y": 76,
       "width": 654,
       "height": 728
     },

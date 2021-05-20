@@ -80,6 +80,8 @@
 		D6B061241803AB9F0077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B061231803AB9F0077942B /* CoreMotion.framework */; };
 		FA676C761C71AFA200E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C751C71AFA200E091E3 /* libiconv.dylib */; };
 		FA676C781C71AFAB00E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C771C71AFAB00E091E3 /* libiconv.dylib */; };
+		FCBE25DF26564CD800ED33A6 /* SDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25DE26564CD800ED33A6 /* SDKManager.m */; };
+		FCBE25E726565B4500ED33A6 /* NativeOcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25E626565B4500ED33A6 /* NativeOcClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,6 +199,10 @@
 		FA676C771C71AFAB00E091E3 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		FCBE25742655213B00ED33A6 /* Pods_testShareTrace_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_testShareTrace_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBE257A265521C600ED33A6 /* Pods_testShareTrace_desktop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_testShareTrace_desktop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBE25DD26564CD700ED33A6 /* SDKManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKManager.h; sourceTree = "<group>"; };
+		FCBE25DE26564CD800ED33A6 /* SDKManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKManager.m; sourceTree = "<group>"; };
+		FCBE25E526565B4500ED33A6 /* NativeOcClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeOcClass.h; sourceTree = "<group>"; };
+		FCBE25E626565B4500ED33A6 /* NativeOcClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeOcClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +408,10 @@
 				509D4ABB17EBB2AB00697056 /* RootViewController.mm */,
 				22CC756221BA527F00FBF2F7 /* SDKWrapper.h */,
 				22CC756121BA527F00FBF2F7 /* SDKWrapper.m */,
+				FCBE25DD26564CD700ED33A6 /* SDKManager.h */,
+				FCBE25DE26564CD800ED33A6 /* SDKManager.m */,
+				FCBE25E526565B4500ED33A6 /* NativeOcClass.h */,
+				FCBE25E626565B4500ED33A6 /* NativeOcClass.m */,
 			);
 			name = ios;
 			sourceTree = "<group>";
@@ -649,6 +659,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
+				FCBE25E726565B4500ED33A6 /* NativeOcClass.m in Sources */,
+				FCBE25DF26564CD800ED33A6 /* SDKManager.m in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
 				22CC756521BA528000FBF2F7 /* SDKWrapper.m in Sources */,
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
