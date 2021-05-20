@@ -2,7 +2,5 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 #include "../../cocos2d-x/cocos/platform/ios/CCModuleConfigIOS.release.xcconfig"
-#include "../Pods/Pods-testShareTrace-desktop.release.xcconfig"
-#include "../Pods/Pods-testShareTrace-mobile.release.xcconfig"
 #include "Pods/Target Support Files/Pods-testShareTrace-desktop/Pods-testShareTrace-desktop.release.xcconfig"
 #include "Pods/Target Support Files/Pods-testShareTrace-mobile/Pods-testShareTrace-mobile.release.xcconfig"
