@@ -1,3 +1,5 @@
+import UIManager from "./UIManager";
+
 cc.Class({
     extends: cc.Component,
 
@@ -30,8 +32,10 @@ cc.Class({
                     "我们的故事，是很长的电影");
             }
         }else if (param === "sharetrace"){
-            var ret = jsb.reflection.callStaticMethod("SDKManager","getSharetraceParam");
+
+            let ret = jsb.reflection.callStaticMethod("SDKManager","getSharetraceParam");
             cc.log("====sharetrace结果:",ret);
+            UIManager.showTipsUI(ret);
         }
     }
 });
