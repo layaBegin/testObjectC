@@ -4,6 +4,10 @@ cc._RF.push(module, '280c3rsZJJKnZ9RqbALVwtK', 'HelloWorld');
 
 "use strict";
 
+var _UIManager = _interopRequireDefault(require("./UIManager"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
 cc.Class({
   "extends": cc.Component,
   properties: {
@@ -11,8 +15,10 @@ cc.Class({
       "default": null,
       type: cc.Label
     },
-    // defaults, set visually when attaching this script to the Canvas
-    text: 'Hello, World!'
+    label1: {
+      "default": null,
+      type: cc.Label
+    }
   },
   // use this for initialization
   onLoad: function onLoad() {//this.label.string = this.text;
@@ -28,8 +34,12 @@ cc.Class({
         var ret = jsb.reflection.callStaticMethod("NativeOcClass", "callNativeUIWithTitle:andContent:", "123木头人", "我们的故事，是很长的电影");
       }
     } else if (param === "sharetrace") {
-      var ret = jsb.reflection.callStaticMethod("SDKManager", "getSharetraceParam");
-      cc.log("====sharetrace结果:", ret);
+      var _ret = jsb.reflection.callStaticMethod("SDKManager", "getSharetraceParam");
+
+      cc.log("====sharetrace结果:", _ret);
+      this.label1.string = _ret;
+
+      _UIManager["default"].showTipsUI(_ret);
     }
   }
 });

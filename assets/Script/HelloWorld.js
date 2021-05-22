@@ -8,8 +8,11 @@ cc.Class({
             default: null,
             type: cc.Label
         },
-        // defaults, set visually when attaching this script to the Canvas
-        text: 'Hello, World!'
+        label1: {
+            default: null,
+            type: cc.Label
+        },
+
     },
 
     // use this for initialization
@@ -32,9 +35,9 @@ cc.Class({
                     "我们的故事，是很长的电影");
             }
         }else if (param === "sharetrace"){
-
             let ret = jsb.reflection.callStaticMethod("SDKManager","getSharetraceParam");
             cc.log("====sharetrace结果:",ret);
+            this.label1.string = ret;
             UIManager.showTipsUI(ret);
         }
     }

@@ -1,6 +1,6 @@
 
 (function () {
-var scripts = [{"deps":{"./assets/migration/use_v2.1-2.2.1_cc.Toggle_event":2,"./assets/Script/HelloWorld":1},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/Script/HelloWorld.js"},{"deps":{},"path":"preview-scripts/assets/migration/use_v2.1-2.2.1_cc.Toggle_event.js"}];
+var scripts = [{"deps":{"./assets/Script/UIManager":1,"./assets/Script/TipsUI":5,"./assets/Script/HelloWorld":4,"./assets/migration/use_v2.1-2.2.1_cc.Toggle_event":2,"./assets/Script/SDKCallBack":3},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/Script/UIManager.js"},{"deps":{},"path":"preview-scripts/assets/migration/use_v2.1-2.2.1_cc.Toggle_event.js"},{"deps":{},"path":"preview-scripts/assets/Script/SDKCallBack.js"},{"deps":{"./UIManager":1},"path":"preview-scripts/assets/Script/HelloWorld.js"},{"deps":{},"path":"preview-scripts/assets/Script/TipsUI.js"}];
 var entries = ["preview-scripts/__qc_index__.js"];
 
 /**
