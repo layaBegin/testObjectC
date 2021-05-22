@@ -85,6 +85,10 @@ Application* app = nullptr;
         selector:@selector(statusBarOrientationChanged:)
         name:UIApplicationDidChangeStatusBarOrientationNotification object:nil];
     
+//    NSString *str = @"测试原生调用参数1";
+//    std::string strRet1 = [str UTF8String];
+//    std::string script = cocos2d::StringUtils::format("getSharetraceBack(\"%s\");", strRet1.c_str());
+//    se::ScriptEngine::getInstance()->evalString(script.c_str());
     //run the cocos2d-x game scene
     app->start();
     
