@@ -1,16 +1,25 @@
 PODS:
+  - JCore (2.4.0)
+  - JPush (3.4.0):
+    - JCore (< 3.0.0, >= 2.0.0)
   - SharetraceSDK (2.0.0)
 
 DEPENDENCIES:
+  - JCore
+  - JPush
   - SharetraceSDK (~> 2.0.0)
 
 SPEC REPOS:
   trunk:
+    - JCore
+    - JPush
     - SharetraceSDK
 
 SPEC CHECKSUMS:
+  JCore: a29e4b0ee54e1301446dc02d8e1c350404108b34
+  JPush: defaa108c38806f6efdcfaf4c416854d25fca8e5
   SharetraceSDK: 0927bccea0cd721a05ba360858c26db260b728b4
 
-PODFILE CHECKSUM: 1ec3b62c2cb171faeb2d205c77c9e55cdfa57423
+PODFILE CHECKSUM: 848d17e68d8f7df9731e8453499772b53afbf93b
 
 COCOAPODS: 1.10.1

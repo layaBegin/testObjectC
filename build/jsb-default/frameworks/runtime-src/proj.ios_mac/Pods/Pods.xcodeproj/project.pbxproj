@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		5FB6AB0A09E7A2F2BE11AD6BAEFD9AED /* JPush */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4CFF5C2B33450270562AC8B2E8875F00 /* Build configuration list for PBXAggregateTarget "JPush" */;
+			buildPhases = (
+			);
+			dependencies = (
+				99F07A42F414306F3BBCABD8610258DA /* PBXTargetDependency */,
+			);
+			name = JPush;
+		};
 		81F17E12A0A6813A5A30F32089FAECD4 /* SharetraceSDK */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = DFAB409E81F3DF90077AE422FC3A4D93 /* Build configuration list for PBXAggregateTarget "SharetraceSDK" */;
@@ -16,52 +26,89 @@
 			);
 			name = SharetraceSDK;
 		};
+		D504B99928659EA67A1C3A9E981EB8FF /* JCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4EE7338F2FBA1E0EC226EF8C45298469 /* Build configuration list for PBXAggregateTarget "JCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = JCore;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0742CEC3CF07E537065D598D1814E7F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96B6F02A66345DED9C856D1BD504B40 /* Foundation.framework */; };
+		5F587E28F9AE970E979183ED69DBB6AD /* Pods-testShareTrace-mobile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 497728281B2B7E02B595C75C544A70F5 /* Pods-testShareTrace-mobile-dummy.m */; };
 		6934E6980D7E44D419086D6C14BDC518 /* Pods-testShareTrace-desktop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F5DC1FC78E6991BF4514D8AAA6FE3A /* Pods-testShareTrace-desktop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75C8CB6EEF4849707C56A25BB1F64864 /* Pods-testShareTrace-desktop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2236E4CE67ABD06A8D06CA4899EE75 /* Pods-testShareTrace-desktop-dummy.m */; };
-		7DAB46FA350C99E894AA45CF4BEA89B9 /* Pods-testShareTrace-mobile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9490833AB9147147F18711FBB0802FBC /* Pods-testShareTrace-mobile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DE806D441D85004DBDDB33955B384BB /* Pods-testShareTrace-mobile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 497728281B2B7E02B595C75C544A70F5 /* Pods-testShareTrace-mobile-dummy.m */; };
+		A11F1785F215618A652AD4BADD118690 /* Pods-testShareTrace-mobile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9490833AB9147147F18711FBB0802FBC /* Pods-testShareTrace-mobile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2882D483E1B250083484E110BC94A85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E59D9D8EF41291B0C13BC330FA3126 /* Cocoa.framework */; };
-		C4D358B69DF658433519696FA22E9537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96B6F02A66345DED9C856D1BD504B40 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8552CAEE5E9016A23C16EF33D2D63EEF /* PBXContainerItemProxy */ = {
+		01B1035F6BAB446E8392CECBA978C172 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 81F17E12A0A6813A5A30F32089FAECD4;
 			remoteInfo = SharetraceSDK;
 		};
+		688781BA527A16B07F6D407F4506AB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB6AB0A09E7A2F2BE11AD6BAEFD9AED;
+			remoteInfo = JPush;
+		};
+		6C458C1F7E6AC70B804FFF628D4F5E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D504B99928659EA67A1C3A9E981EB8FF;
+			remoteInfo = JCore;
+		};
+		AFDA38830D359B94F10476B2310B3E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D504B99928659EA67A1C3A9E981EB8FF;
+			remoteInfo = JCore;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000A6DE2D1D25F8F534CF154AFABBF07 /* AppData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppData.h; path = lib/SharetraceSDK.framework/Headers/AppData.h; sourceTree = "<group>"; };
-		02CDA3595612EB19488A59BE9451978B /* Sharetrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sharetrace.h; path = lib/SharetraceSDK.framework/Headers/Sharetrace.h; sourceTree = "<group>"; };
 		0AE2B900AEED8CD37E51D129B37EA1D4 /* Pods-testShareTrace-desktop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testShareTrace-desktop-acknowledgements.plist"; sourceTree = "<group>"; };
-		0CBBE6E48F4AEA9945F38A6F09433F0E /* SharetraceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharetraceSDK.framework; path = lib/SharetraceSDK.framework; sourceTree = "<group>"; };
-		12CC818BC4E7E8E4CE8C10D040D8F272 /* SharetraceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharetraceSDK.h; path = lib/SharetraceSDK.framework/Headers/SharetraceSDK.h; sourceTree = "<group>"; };
+		16D8C21F4B20E1E91F26345D357397F3 /* libjcore-ios-2.4.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.4.0.a"; sourceTree = "<group>"; };
+		1A35E5CFAFB5288088710B27DC6F0511 /* SharetraceSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SharetraceSDK.debug.xcconfig; sourceTree = "<group>"; };
 		1B8BA792265FC5320444D46502139F60 /* Pods-testShareTrace-mobile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testShareTrace-mobile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23AEA2F1207ECDB59BBB74BD08FF1337 /* JCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.debug.xcconfig; sourceTree = "<group>"; };
+		2AA0C0B8A255188F436C7892B980C8E2 /* SharetraceSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharetraceSDK.h; path = lib/SharetraceSDK.framework/Headers/SharetraceSDK.h; sourceTree = "<group>"; };
+		33F19F02B235F71C7FDFA92EFB943BA2 /* Sharetrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Sharetrace.h; path = lib/SharetraceSDK.framework/Headers/Sharetrace.h; sourceTree = "<group>"; };
 		48A029335B94C01748CB9E118E7E0334 /* Pods-testShareTrace-desktop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testShareTrace-desktop-acknowledgements.markdown"; sourceTree = "<group>"; };
 		497728281B2B7E02B595C75C544A70F5 /* Pods-testShareTrace-mobile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testShareTrace-mobile-dummy.m"; sourceTree = "<group>"; };
 		4AC6AFAE1E65DEFC1F9505E026C68525 /* Pods-testShareTrace-mobile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testShareTrace-mobile-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BEE0EE46898A6F3BF61FA5AE8C1F29B /* SharetraceSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SharetraceSDK.release.xcconfig; sourceTree = "<group>"; };
 		52F5DC1FC78E6991BF4514D8AAA6FE3A /* Pods-testShareTrace-desktop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testShareTrace-desktop-umbrella.h"; sourceTree = "<group>"; };
 		6057D98F801361AC73277D0F865E92A8 /* Pods-testShareTrace-mobile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testShareTrace-mobile-frameworks.sh"; sourceTree = "<group>"; };
+		65A92FF7C8E26454B6E5680ECFF0FB44 /* SharetraceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharetraceSDK.framework; path = lib/SharetraceSDK.framework; sourceTree = "<group>"; };
 		660265EF4E1BD2F5978619668F21B812 /* Pods-testShareTrace-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testShareTrace-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		67C289E231A7C2C3236050BB59B58C10 /* libjpush-ios-3.4.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.4.0.a"; sourceTree = "<group>"; };
 		70E59D9D8EF41291B0C13BC330FA3126 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		7B1A398F496C1A07473AD41B0C1C3A53 /* Pods-testShareTrace-mobile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testShareTrace-mobile.modulemap"; sourceTree = "<group>"; };
 		935D2860E35234E8610BA46E801460F4 /* Pods_testShareTrace_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testShareTrace_mobile.framework; path = "Pods-testShareTrace-mobile.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		939B66E4D85B37AF020425064213125E /* Pods-testShareTrace-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testShareTrace-mobile.debug.xcconfig"; sourceTree = "<group>"; };
 		9490833AB9147147F18711FBB0802FBC /* Pods-testShareTrace-mobile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testShareTrace-mobile-umbrella.h"; sourceTree = "<group>"; };
+		97D4EDD200D5C93264CE527948F28B66 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E524FEF0146838089DCF0A622341BCB /* JCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.release.xcconfig; sourceTree = "<group>"; };
+		AD0118BEDF1A09C7C05168E0F61D12B2 /* AppData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppData.h; path = lib/SharetraceSDK.framework/Headers/AppData.h; sourceTree = "<group>"; };
 		AD75E6BCB382801A56E2CE439DD32F20 /* Pods-testShareTrace-desktop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testShareTrace-desktop.debug.xcconfig"; sourceTree = "<group>"; };
-		B090AAC5FDC8A7967712E0146ED4A92A /* SharetraceSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SharetraceSDK.release.xcconfig; sourceTree = "<group>"; };
-		B959FD64B34D2C8B10D1395BD20A683F /* SharetraceSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SharetraceSDK.debug.xcconfig; sourceTree = "<group>"; };
 		C98E023E22D13211CE47811D844B05CF /* Pods-testShareTrace-desktop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testShareTrace-desktop-Info.plist"; sourceTree = "<group>"; };
 		CE9FBD499FFE38EA1CDB175533C9E2A8 /* Pods-testShareTrace-desktop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testShareTrace-desktop.release.xcconfig"; sourceTree = "<group>"; };
+		D600347A65338D15F2F6BFFFB62C63A3 /* JPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPush.release.xcconfig; sourceTree = "<group>"; };
 		D96B6F02A66345DED9C856D1BD504B40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E45B78C5D8ED96353EB8F6CC38395E99 /* JPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPush.debug.xcconfig; sourceTree = "<group>"; };
 		E9C619BDA213C124AEA6FBB00E420B6B /* Pods-testShareTrace-mobile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testShareTrace-mobile-Info.plist"; sourceTree = "<group>"; };
 		EC913C6689F903DAF35B466ACEF15AF8 /* Pods_testShareTrace_desktop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testShareTrace_desktop.framework; path = "Pods-testShareTrace-desktop.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E321CC7EE63BA03AAE46F9DB4CEB68 /* Pods-testShareTrace-desktop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-testShareTrace-desktop.modulemap"; sourceTree = "<group>"; };
@@ -77,25 +124,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0C5BEB0CD2ED296542EBF64EC96318E /* Frameworks */ = {
+		2C6CD77D2FD7365FFE6557D13C4F4372 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4D358B69DF658433519696FA22E9537 /* Foundation.framework in Frameworks */,
+				0742CEC3CF07E537065D598D1814E7F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C817A58CE4023D28A4AD162F05549D4 /* Support Files */ = {
+		0173BCEEBDA5163EC881472335595AE7 /* JPush */ = {
 			isa = PBXGroup;
 			children = (
-				B959FD64B34D2C8B10D1395BD20A683F /* SharetraceSDK.debug.xcconfig */,
-				B090AAC5FDC8A7967712E0146ED4A92A /* SharetraceSDK.release.xcconfig */,
+				97D4EDD200D5C93264CE527948F28B66 /* JPUSHService.h */,
+				8551F395E62B132BA7256B040787F03A /* Frameworks */,
+				CF5C2D53D05AD4E6C0BC90AB8AC6DE95 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SharetraceSDK";
+			name = JPush;
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		06A826C4E432A1E67EFBC7E487503F8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A5ED6625AB9C3491C720C9FB276B9B3 /* JCore */,
+				0173BCEEBDA5163EC881472335595AE7 /* JPush */,
+				086B3DDA70BA94232962B36F5653210A /* SharetraceSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		086B3DDA70BA94232962B36F5653210A /* SharetraceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AD0118BEDF1A09C7C05168E0F61D12B2 /* AppData.h */,
+				33F19F02B235F71C7FDFA92EFB943BA2 /* Sharetrace.h */,
+				2AA0C0B8A255188F436C7892B980C8E2 /* SharetraceSDK.h */,
+				E442EB4A4BC7E5EBBA96CA6A00D58D07 /* Frameworks */,
+				A7CA664A6EC1597DC03ABC059E737A6C /* Support Files */,
+			);
+			name = SharetraceSDK;
+			path = SharetraceSDK;
 			sourceTree = "<group>";
 		};
 		16C2DDD7ACBF27A6F430D467E2E6AAD4 /* Frameworks */ = {
@@ -107,12 +178,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		455F31DDB61096263D3BD0F2016B4450 /* Pods */ = {
+		25F414071DA59D593BC9D8F1C87978C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93B972CBE54D83EE97FBBA7EDD31DC61 /* SharetraceSDK */,
+				16D8C21F4B20E1E91F26345D357397F3 /* libjcore-ios-2.4.0.a */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		50FE402DF50C0DA5DA8C1C8405D1F4F3 /* Pods-testShareTrace-desktop */ = {
@@ -174,25 +245,42 @@
 			path = "Target Support Files/Pods-testShareTrace-mobile";
 			sourceTree = "<group>";
 		};
-		93B972CBE54D83EE97FBBA7EDD31DC61 /* SharetraceSDK */ = {
+		7EF06FFD0B7BE2120BB06D2BE4E6DD0B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				000A6DE2D1D25F8F534CF154AFABBF07 /* AppData.h */,
-				02CDA3595612EB19488A59BE9451978B /* Sharetrace.h */,
-				12CC818BC4E7E8E4CE8C10D040D8F272 /* SharetraceSDK.h */,
-				AA56DE974C26A4ABAF696EAACEC16AB8 /* Frameworks */,
-				0C817A58CE4023D28A4AD162F05549D4 /* Support Files */,
+				23AEA2F1207ECDB59BBB74BD08FF1337 /* JCore.debug.xcconfig */,
+				9E524FEF0146838089DCF0A622341BCB /* JCore.release.xcconfig */,
 			);
-			name = SharetraceSDK;
-			path = SharetraceSDK;
+			name = "Support Files";
+			path = "../Target Support Files/JCore";
 			sourceTree = "<group>";
 		};
-		AA56DE974C26A4ABAF696EAACEC16AB8 /* Frameworks */ = {
+		8551F395E62B132BA7256B040787F03A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0CBBE6E48F4AEA9945F38A6F09433F0E /* SharetraceSDK.framework */,
+				67C289E231A7C2C3236050BB59B58C10 /* libjpush-ios-3.4.0.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A5ED6625AB9C3491C720C9FB276B9B3 /* JCore */ = {
+			isa = PBXGroup;
+			children = (
+				25F414071DA59D593BC9D8F1C87978C7 /* Frameworks */,
+				7EF06FFD0B7BE2120BB06D2BE4E6DD0B /* Support Files */,
+			);
+			name = JCore;
+			path = JCore;
+			sourceTree = "<group>";
+		};
+		A7CA664A6EC1597DC03ABC059E737A6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A35E5CFAFB5288088710B27DC6F0511 /* SharetraceSDK.debug.xcconfig */,
+				4BEE0EE46898A6F3BF61FA5AE8C1F29B /* SharetraceSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SharetraceSDK";
 			sourceTree = "<group>";
 		};
 		CE99DF0ABA5FB7E00AC2861D6C3EE997 /* OS X */ = {
@@ -208,20 +296,38 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				16C2DDD7ACBF27A6F430D467E2E6AAD4 /* Frameworks */,
-				455F31DDB61096263D3BD0F2016B4450 /* Pods */,
+				06A826C4E432A1E67EFBC7E487503F8B /* Pods */,
 				5D6679C91F858FCD5B4589EA5B04C89E /* Products */,
 				695DDB8591245AE8CD84A2FD09F26D7B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
+		CF5C2D53D05AD4E6C0BC90AB8AC6DE95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E45B78C5D8ED96353EB8F6CC38395E99 /* JPush.debug.xcconfig */,
+				D600347A65338D15F2F6BFFFB62C63A3 /* JPush.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPush";
+			sourceTree = "<group>";
+		};
+		E442EB4A4BC7E5EBBA96CA6A00D58D07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A92FF7C8E26454B6E5680ECFF0FB44 /* SharetraceSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B1383A891C3E3F673445439694DB4997 /* Headers */ = {
+		EC0DEA39DCB6DCC04FD747BD75F29E48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DAB46FA350C99E894AA45CF4BEA89B9 /* Pods-testShareTrace-mobile-umbrella.h in Headers */,
+				A11F1785F215618A652AD4BADD118690 /* Pods-testShareTrace-mobile-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,17 +344,19 @@
 /* Begin PBXNativeTarget section */
 		381D388E448DEC9FCCB2F74897F1E072 /* Pods-testShareTrace-mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10DC03F4349423334A0FEA2B5B2D0CB0 /* Build configuration list for PBXNativeTarget "Pods-testShareTrace-mobile" */;
+			buildConfigurationList = B05D30D15084160CDBAA7583C98A7457 /* Build configuration list for PBXNativeTarget "Pods-testShareTrace-mobile" */;
 			buildPhases = (
-				B1383A891C3E3F673445439694DB4997 /* Headers */,
-				52D7F838013F41914B6AB786B153E057 /* Sources */,
-				D0C5BEB0CD2ED296542EBF64EC96318E /* Frameworks */,
-				E122BCA6B307DB3F1AFF305BEBF580B7 /* Resources */,
+				EC0DEA39DCB6DCC04FD747BD75F29E48 /* Headers */,
+				AF8F23785AFAC7C1A70C3AC0C13B2F15 /* Sources */,
+				2C6CD77D2FD7365FFE6557D13C4F4372 /* Frameworks */,
+				587AFD9BFFE3D7898365298DED0717B3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E35752C8F7C9589C9B3C9DF54CF3B3F /* PBXTargetDependency */,
+				525F1CF647043667FB4D8C45D00E3E42 /* PBXTargetDependency */,
+				E3000E99CC3F7A94831E63FCB1437B9D /* PBXTargetDependency */,
+				12E45A42DDF10EE9D00E54391CD5D651 /* PBXTargetDependency */,
 			);
 			name = "Pods-testShareTrace-mobile";
 			productName = "Pods-testShareTrace-mobile";
@@ -295,6 +403,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				D504B99928659EA67A1C3A9E981EB8FF /* JCore */,
+				5FB6AB0A09E7A2F2BE11AD6BAEFD9AED /* JPush */,
 				FD750A448E4341431AE541372EA086DD /* Pods-testShareTrace-desktop */,
 				381D388E448DEC9FCCB2F74897F1E072 /* Pods-testShareTrace-mobile */,
 				81F17E12A0A6813A5A30F32089FAECD4 /* SharetraceSDK */,
@@ -303,14 +413,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C9AEFF118769F026B758A11D78A69D7 /* Resources */ = {
+		587AFD9BFFE3D7898365298DED0717B3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E122BCA6B307DB3F1AFF305BEBF580B7 /* Resources */ = {
+		5C9AEFF118769F026B758A11D78A69D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,26 +438,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52D7F838013F41914B6AB786B153E057 /* Sources */ = {
+		AF8F23785AFAC7C1A70C3AC0C13B2F15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE806D441D85004DBDDB33955B384BB /* Pods-testShareTrace-mobile-dummy.m in Sources */,
+				5F587E28F9AE970E979183ED69DBB6AD /* Pods-testShareTrace-mobile-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E35752C8F7C9589C9B3C9DF54CF3B3F /* PBXTargetDependency */ = {
+		12E45A42DDF10EE9D00E54391CD5D651 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SharetraceSDK;
 			target = 81F17E12A0A6813A5A30F32089FAECD4 /* SharetraceSDK */;
-			targetProxy = 8552CAEE5E9016A23C16EF33D2D63EEF /* PBXContainerItemProxy */;
+			targetProxy = 01B1035F6BAB446E8392CECBA978C172 /* PBXContainerItemProxy */;
+		};
+		525F1CF647043667FB4D8C45D00E3E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			target = D504B99928659EA67A1C3A9E981EB8FF /* JCore */;
+			targetProxy = 6C458C1F7E6AC70B804FFF628D4F5E5B /* PBXContainerItemProxy */;
+		};
+		99F07A42F414306F3BBCABD8610258DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			target = D504B99928659EA67A1C3A9E981EB8FF /* JCore */;
+			targetProxy = AFDA38830D359B94F10476B2310B3E01 /* PBXContainerItemProxy */;
+		};
+		E3000E99CC3F7A94831E63FCB1437B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPush;
+			target = 5FB6AB0A09E7A2F2BE11AD6BAEFD9AED /* JPush */;
+			targetProxy = 688781BA527A16B07F6D407F4506AB49 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0BD3C67E9E85F518BEE56C58FE066564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E524FEF0146838089DCF0A622341BCB /* JCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FFE7EB2B98D3D84CE889637623B6B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D600347A65338D15F2F6BFFFB62C63A3 /* JPush.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		28659A9750AC87D84EFA9846FA427DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE9FBD499FFE38EA1CDB175533C9E2A8 /* Pods-testShareTrace-desktop.release.xcconfig */;
@@ -381,7 +537,7 @@
 			};
 			name = Release;
 		};
-		3B8EDC9BEC732A14CECBDADE91F4CA7C /* Release */ = {
+		56335ED77494E5C0FABF9A387C071A0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 660265EF4E1BD2F5978619668F21B812 /* Pods-testShareTrace-mobile.release.xcconfig */;
 			buildSettings = {
@@ -414,6 +570,19 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		64B8C89023B87A4E584525491403A422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45B78C5D8ED96353EB8F6CC38395E99 /* JPush.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		9CC619172F91086ECC293FBCB59F078A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -478,6 +647,19 @@
 			};
 			name = Release;
 		};
+		A6E7093C72FF02B0E5444D75C7C83FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AEA2F1207ECDB59BBB74BD08FF1337 /* JCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		D3AEB624617E37A0F495E821B4D2095F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD75E6BCB382801A56E2CE439DD32F20 /* Pods-testShareTrace-desktop.debug.xcconfig */;
@@ -511,21 +693,7 @@
 			};
 			name = Debug;
 		};
-		E7B7646439EA8595D1936B88E07C13CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B090AAC5FDC8A7967712E0146ED4A92A /* SharetraceSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F4CD33A185B7D2E1F3DAEE6CF0F83F9A /* Debug */ = {
+		DC4AF5F7C99BD421AC2E18B4ECEE61BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 939B66E4D85B37AF020425064213125E /* Pods-testShareTrace-mobile.debug.xcconfig */;
 			buildSettings = {
@@ -558,9 +726,23 @@
 			};
 			name = Debug;
 		};
+		E7B7646439EA8595D1936B88E07C13CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BEE0EE46898A6F3BF61FA5AE8C1F29B /* SharetraceSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		F818473F70BDC8A282C94917357965BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B959FD64B34D2C8B10D1395BD20A683F /* SharetraceSDK.debug.xcconfig */;
+			baseConfigurationReference = 1A35E5CFAFB5288088710B27DC6F0511 /* SharetraceSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -641,15 +823,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10DC03F4349423334A0FEA2B5B2D0CB0 /* Build configuration list for PBXNativeTarget "Pods-testShareTrace-mobile" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4CD33A185B7D2E1F3DAEE6CF0F83F9A /* Debug */,
-				3B8EDC9BEC732A14CECBDADE91F4CA7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -659,11 +832,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4CFF5C2B33450270562AC8B2E8875F00 /* Build configuration list for PBXAggregateTarget "JPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B8C89023B87A4E584525491403A422 /* Debug */,
+				1FFE7EB2B98D3D84CE889637623B6B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE7338F2FBA1E0EC226EF8C45298469 /* Build configuration list for PBXAggregateTarget "JCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E7093C72FF02B0E5444D75C7C83FE9 /* Debug */,
+				0BD3C67E9E85F518BEE56C58FE066564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8B33BF836C0BB01157562719B01DE101 /* Build configuration list for PBXNativeTarget "Pods-testShareTrace-desktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3AEB624617E37A0F495E821B4D2095F /* Debug */,
 				28659A9750AC87D84EFA9846FA427DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05D30D15084160CDBAA7583C98A7457 /* Build configuration list for PBXNativeTarget "Pods-testShareTrace-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4AF5F7C99BD421AC2E18B4ECEE61BF /* Debug */,
+				56335ED77494E5C0FABF9A387C071A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

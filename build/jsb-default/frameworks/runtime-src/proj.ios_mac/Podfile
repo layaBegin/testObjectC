@@ -15,6 +15,7 @@ target 'testShareTrace-mobile' do
 
   # Pods for testShareTrace-mobile
   pod 'SharetraceSDK', '~> 2.0.0'
-
+  pod 'JCore' #可选项，也可由pod 'JPush'自动获取
+  pod 'JPush' 
 
 end
