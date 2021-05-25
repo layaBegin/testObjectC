@@ -32,8 +32,18 @@
 #import "platform/ios/CCEAGLView-ios.h"
 #import <SharetraceSDK/SharetraceSDK.h>
 // 引入 JPush 功能所需头文件
-#import "JPUSHService.h"
+
 #import <UserNotifications/UserNotifications.h>
+//#import "JPush.h"
+#import "JPUSHService.h"
+
+#define APPKEY @"abb88ddba9ae89a3b0cb98b4"
+
+
+
+@interface AppController ()<JPUSHRegisterDelegate>
+
+@end
 
 using namespace cocos2d;
 
@@ -54,19 +64,9 @@ Application* app = nullptr;
     
     //shareTrace
     [Sharetrace initWithDelegate:self];
-    
-//    //【注册通知】通知回调代理（可选）
-//    JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
-//    entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound|JPAuthorizationOptionProvidesAppNotificationSettings;
-//    [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
-//
-    
-//    //【初始化sdk】
-//      [JPUSHService setupWithOption:launchOptions appKey:appKey
-//                            channel:channel
-//                   apsForProduction:isProduction
-//              advertisingIdentifier:advertisingId];
-    
+    //jpush 初始化
+    [self jpushInit: launchOptions];
+
     // cocos2d application instance
     app = new AppDelegate(bounds.size.width * scale, bounds.size.height * scale);
     app->setMultitouch(true);
@@ -154,6 +154,44 @@ Application* app = nullptr;
     [[SDKWrapper getInstance] applicationWillTerminate:application];
     delete app;
     app = nil;
+}
+
+
+
+//---------------------jpush---------------------------------------
+- (void)jpushInit:(NSDictionary *)launchOptions {
+    //【注册通知】通知回调代理（可选）
+    [JPUSHService registerForRemoteNotificationConfig:[self pushRegisterEntity] delegate:self];
+    //如不需要使用IDFA，advertisingIdentifier 可为nil
+    NSString *advertisingId = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+    //【初始化sdk】
+    [JPUSHService setupWithOption:launchOptions appKey:APPKEY
+                          channel:@"test"
+                 apsForProduction:YES
+            advertisingIdentifier:advertisingId];
+    //温馨提示：快速集成JPush只需要【注册通知】【初始化sdk】两步即可
+    NSLog(@"====集成jpush成功");
+    NSLog(@"APPKEY:%@",APPKEY);
+    //获取registrationId/检测通知授权情况/地理围栏/voip注册/监听连接状态等其他功能
+    //[[JPush shared] initOthers:APPKEY launchOptions:launchOptions];
+}
+
+- (JPUSHRegisterEntity *)pushRegisterEntity {
+    JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
+    entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound;
+    
+    if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
+        //可以添加自定义categories
+    //    if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.0) {
+    //      NSSet<UNNotificationCategory *> *categories;
+    //      entity.categories = categories;
+    //    }
+    //    else {
+    //      NSSet<UIUserNotificationCategory *> *categories;
+    //      entity.categories = categories;
+    //    }
+      }
+    return entity;
 }
 
 
