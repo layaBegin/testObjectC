@@ -31,7 +31,9 @@
 #import "SDKWrapper.h"
 #import "platform/ios/CCEAGLView-ios.h"
 #import <SharetraceSDK/SharetraceSDK.h>
-
+// 引入 JPush 功能所需头文件
+#import "JPUSHService.h"
+#import <UserNotifications/UserNotifications.h>
 
 using namespace cocos2d;
 
@@ -52,6 +54,18 @@ Application* app = nullptr;
     
     //shareTrace
     [Sharetrace initWithDelegate:self];
+    
+//    //【注册通知】通知回调代理（可选）
+//    JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
+//    entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound|JPAuthorizationOptionProvidesAppNotificationSettings;
+//    [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
+//
+    
+//    //【初始化sdk】
+//      [JPUSHService setupWithOption:launchOptions appKey:appKey
+//                            channel:channel
+//                   apsForProduction:isProduction
+//              advertisingIdentifier:advertisingId];
     
     // cocos2d application instance
     app = new AppDelegate(bounds.size.width * scale, bounds.size.height * scale);
