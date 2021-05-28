@@ -36,9 +36,9 @@
 #import <UserNotifications/UserNotifications.h>
 //#import "JPush.h"
 #import "JPUSHService.h"
+#import "ManagerTool.h"
 
-//#define APPKEY @"abb88ddba9ae89a3b0cb98b4"
-#define APPKEY @"f0f98752bd51011a108ed634"
+//#define APPKEY @"f0f98752bd51011a108ed634"
 
 
 @interface AppController ()<JPUSHRegisterDelegate>
@@ -62,10 +62,9 @@ Application* app = nullptr;
     CGRect bounds = [[UIScreen mainScreen] bounds];
     window = [[UIWindow alloc] initWithFrame: bounds];
     
-    //shareTrace
-    [Sharetrace initWithDelegate:self];
-    //jpush 初始化
-    [self jpushInit: launchOptions];
+    NSMutableDictionary *dic = [ManagerTool initDataWithInfoPlist];
+    [self initSDK:launchOptions andDic:dic];
+    
 
     // cocos2d application instance
     app = new AppDelegate(bounds.size.width * scale, bounds.size.height * scale);
@@ -156,22 +155,29 @@ Application* app = nullptr;
     app = nil;
 }
 
-
+-(void)initSDK:(NSDictionary *)launchOptions andDic:(NSMutableDictionary *)dic{
+    //shareTrace
+    [Sharetrace initWithDelegate:self];
+    //jpush 初始化
+    [self jpushInit: launchOptions andDic:dic];
+}
 
 //---------------------jpush---------------------------------------
-- (void)jpushInit:(NSDictionary *)launchOptions {
+- (void)jpushInit:(NSDictionary *)launchOptions andDic:(NSMutableDictionary *)dic{
+    NSString *jpushKey = [[[dic objectForKey:@"CFBundleURLTypes"] objectAtIndex:1]objectForKey:@"JPUSHKey"];
+    
+    NSLog(@"===jpushkey:%@",jpushKey);
     //【注册通知】通知回调代理（可选）
     [JPUSHService registerForRemoteNotificationConfig:[self pushRegisterEntity] delegate:self];
     //如不需要使用IDFA，advertisingIdentifier 可为nil
     NSString *advertisingId = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
     //【初始化sdk】
-    [JPUSHService setupWithOption:launchOptions appKey:APPKEY
+    [JPUSHService setupWithOption:launchOptions appKey:jpushKey
                           channel:@"test"
                  apsForProduction:YES
             advertisingIdentifier:advertisingId];
     //温馨提示：快速集成JPush只需要【注册通知】【初始化sdk】两步即可
     NSLog(@"====集成jpush成功");
-    NSLog(@"APPKEY:%@",APPKEY);
     //获取registrationId/检测通知授权情况/地理围栏/voip注册/监听连接状态等其他功能
     //[[JPush shared] initOthers:APPKEY launchOptions:launchOptions];
 }

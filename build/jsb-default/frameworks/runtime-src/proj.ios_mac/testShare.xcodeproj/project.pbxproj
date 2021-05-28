@@ -83,6 +83,7 @@
 		FA676C781C71AFAB00E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C771C71AFAB00E091E3 /* libiconv.dylib */; };
 		FCBE25DF26564CD800ED33A6 /* SDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25DE26564CD800ED33A6 /* SDKManager.m */; };
 		FCBE25E726565B4500ED33A6 /* NativeOcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25E626565B4500ED33A6 /* NativeOcClass.m */; };
+		FCFD0A1B2660E6A500A93C34 /* ManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFD0A1A2660E6A500A93C34 /* ManagerTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +206,8 @@
 		FCBE25E526565B4500ED33A6 /* NativeOcClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeOcClass.h; sourceTree = "<group>"; };
 		FCBE25E626565B4500ED33A6 /* NativeOcClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeOcClass.m; sourceTree = "<group>"; };
 		FCF8DF62265B94D000BEA864 /* testShareTrace-mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "testShareTrace-mobile.entitlements"; sourceTree = "<group>"; };
+		FCFD0A192660E6A500A93C34 /* ManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerTool.h; sourceTree = "<group>"; };
+		FCFD0A1A2660E6A500A93C34 /* ManagerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +419,8 @@
 				FCBE25DE26564CD800ED33A6 /* SDKManager.m */,
 				FCBE25E526565B4500ED33A6 /* NativeOcClass.h */,
 				FCBE25E626565B4500ED33A6 /* NativeOcClass.m */,
+				FCFD0A192660E6A500A93C34 /* ManagerTool.h */,
+				FCFD0A1A2660E6A500A93C34 /* ManagerTool.m */,
 			);
 			name = ios;
 			sourceTree = "<group>";
@@ -666,6 +671,7 @@
 				FCBE25E726565B4500ED33A6 /* NativeOcClass.m in Sources */,
 				FCBE25DF26564CD800ED33A6 /* SDKManager.m in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
+				FCFD0A1B2660E6A500A93C34 /* ManagerTool.m in Sources */,
 				22CC756521BA528000FBF2F7 /* SDKWrapper.m in Sources */,
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
 				4D3EB2581F8F4A6C007DA644 /* jsb_module_register.cpp in Sources */,

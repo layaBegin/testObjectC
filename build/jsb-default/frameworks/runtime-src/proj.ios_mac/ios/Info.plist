@@ -28,6 +28,12 @@
 			<key>shareTraceKey</key>
 			<string>d9bc24a3ff8bcdef</string>
 		</dict>
+		<dict>
+			<key>JPUSHKey</key>
+			<string>f0f98752bd51011a108ed634</string>
+			<key>CFBundleURLName</key>
+			<string></string>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
