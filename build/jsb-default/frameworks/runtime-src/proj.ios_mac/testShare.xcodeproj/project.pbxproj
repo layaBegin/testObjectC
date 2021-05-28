@@ -845,7 +845,7 @@
 					"$(inherited)",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.duohuobi0519;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingkong.rtuureiwhdfg0527;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -887,7 +887,7 @@
 					"$(inherited)",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.duohuobi0519;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingkong.rtuureiwhdfg0527;
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
