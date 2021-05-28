@@ -6,4 +6,7 @@ class SDKCallBack{
     }
 
 }
-export default new SDKCallBack()
+
+let SDKManager = new SDKCallBack();
+window["SDKCallBack"] = SDKManager;
+export default SDKManager

@@ -32,11 +32,13 @@
 #import "platform/ios/CCEAGLView-ios.h"
 #import <SharetraceSDK/SharetraceSDK.h>
 // 引入 JPush 功能所需头文件
-
 #import <UserNotifications/UserNotifications.h>
 //#import "JPush.h"
 #import "JPUSHService.h"
 #import "ManagerTool.h"
+#import "SDKManager.h"
+#include "cocos/scripting/js-bindings/jswrapper/SeApi.h"
+
 
 //#define APPKEY @"f0f98752bd51011a108ed634"
 
@@ -65,7 +67,8 @@ Application* app = nullptr;
     NSMutableDictionary *dic = [ManagerTool initDataWithInfoPlist];
     [self initSDK:launchOptions andDic:dic];
     
-
+    //[SDKManager testOCToJs];
+    
     // cocos2d application instance
     app = new AppDelegate(bounds.size.width * scale, bounds.size.height * scale);
     app->setMultitouch(true);
@@ -97,15 +100,17 @@ Application* app = nullptr;
     [[NSNotificationCenter defaultCenter] addObserver:self
         selector:@selector(statusBarOrientationChanged:)
         name:UIApplicationDidChangeStatusBarOrientationNotification object:nil];
-    
-//    NSString *str = @"测试原生调用参数1";
-//    std::string strRet1 = [str UTF8String];
-//    std::string script = cocos2d::StringUtils::format("getSharetraceBack(\"%s\");", strRet1.c_str());
-//    se::ScriptEngine::getInstance()->evalString(script.c_str());
     //run the cocos2d-x game scene
     app->start();
     
+    [AppController callJSMethod];
     return YES;
+}
+
++(void)callJSMethod{
+    std::string strRet = "==========steewr";
+    std::string jsCallStr = cocos2d::StringUtils::format("callOCMethoed(\"%s\");", strRet.c_str());
+    se::ScriptEngine::getInstance()->evalString(jsCallStr.c_str());
 }
 
 - (void)statusBarOrientationChanged:(NSNotification *)notification {
@@ -156,6 +161,7 @@ Application* app = nullptr;
 }
 
 -(void)initSDK:(NSDictionary *)launchOptions andDic:(NSMutableDictionary *)dic{
+    
     //shareTrace
     [Sharetrace initWithDelegate:self];
     //jpush 初始化

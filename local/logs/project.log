@@ -1,76 +1,76 @@
-2021-05-22T10:01:34.983Z - normal: Load ~/.CocosCreator/settings.json
-2021-05-22T10:01:35.063Z - normal: Initializing Asset Database
-2021-05-22T10:01:35.066Z - normal: checking language setting...
-2021-05-22T10:01:35.066Z - normal: Language: zh
-2021-05-22T10:01:36.346Z - success: preview server running at http://localhost:7456
-2021-05-22T10:01:36.371Z - success: protocol editor-framework registered
-2021-05-22T10:01:36.371Z - success: protocol app registered
-2021-05-22T10:01:36.372Z - success: protocol theme registered
-2021-05-22T10:01:36.372Z - success: protocol packages registered
-2021-05-22T10:01:36.372Z - success: protocol uuid registerred
-2021-05-22T10:01:36.372Z - success: protocol db registerred
-2021-05-22T10:01:36.372Z - success: protocol thumbnail registerred
-2021-05-22T10:01:36.372Z - success: protocol unpack registerred
-2021-05-22T10:01:36.372Z - success: protocol disable-commonjs registerred
-2021-05-22T10:01:38.458Z - normal: connected!
-2021-05-22T10:01:38.460Z - normal: Check project /Users/yunteng/Documents/cocosProject/testObjectC
-2021-05-22T10:01:38.461Z - normal: Initializing project /Users/yunteng/Documents/cocosProject/testObjectC
-2021-05-22T10:01:38.482Z - success: adapters loaded
-2021-05-22T10:01:38.486Z - success: asset-db-debugger loaded
-2021-05-22T10:01:38.611Z - success: fb-audience-network loaded
-2021-05-22T10:01:38.700Z - success: fb-live-stream loaded
-2021-05-22T10:01:38.704Z - success: google-play-instant loaded
-2021-05-22T10:01:38.706Z - success: huawei-adapter loaded
-2021-05-22T10:01:38.709Z - success: jkw-adapter loaded
-2021-05-22T10:01:38.710Z - success: jsb-adapter loaded
-2021-05-22T10:01:38.714Z - success: oppo-adapter loaded
-2021-05-22T10:01:38.720Z - success: package-manager loaded
-2021-05-22T10:01:38.723Z - success: qtt-adapter loaded
-2021-05-22T10:01:38.728Z - success: runtime-dev-tools loaded
-2021-05-22T10:01:38.737Z - success: sdkbox loaded
-2021-05-22T10:01:38.740Z - success: ui-kit-preview-extra loaded
-2021-05-22T10:01:38.744Z - success: ui-kit-preview loaded
-2021-05-22T10:01:38.745Z - success: vivo-adapter loaded
-2021-05-22T10:01:38.847Z - success: alipay-minigame loaded
-2021-05-22T10:01:38.911Z - success: assets loaded
-2021-05-22T10:01:38.913Z - success: baidugame-opendata loaded
-2021-05-22T10:01:38.915Z - success: baidugame loaded
-2021-05-22T10:01:38.918Z - success: builder loaded
-2021-05-22T10:01:39.130Z - success: cocos-services loaded
-2021-05-22T10:01:39.137Z - success: console loaded
-2021-05-22T10:01:39.140Z - success: curve-editor loaded
-2021-05-22T10:01:39.153Z - success: fb-instant-games loaded
-2021-05-22T10:01:39.156Z - success: game-window loaded
-2021-05-22T10:01:39.156Z - success: google-instant-games loaded
-2021-05-22T10:01:39.161Z - success: hierarchy loaded
-2021-05-22T10:01:39.164Z - success: huawei-runtime loaded
-2021-05-22T10:01:39.167Z - success: inspector loaded
-2021-05-22T10:01:39.249Z - success: cpk-publish loaded
-2021-05-22T10:01:39.250Z - success: keystore loaded
-2021-05-22T10:01:39.255Z - success: node-library loaded
-2021-05-22T10:01:39.256Z - success: open-recent-items loaded
-2021-05-22T10:01:39.263Z - success: oppo-runtime loaded
-2021-05-22T10:01:39.265Z - success: package-asset loaded
-2021-05-22T10:01:39.266Z - success: preferences loaded
-2021-05-22T10:01:39.269Z - success: project-importer loaded
-2021-05-22T10:01:39.271Z - success: project-settings loaded
-2021-05-22T10:01:39.284Z - success: qtt-runtime loaded
-2021-05-22T10:01:39.287Z - success: scene loaded
-2021-05-22T10:01:39.288Z - success: simulator-debugger loaded
-2021-05-22T10:01:39.289Z - success: sprite-editor loaded
-2021-05-22T10:01:39.293Z - success: store loaded
-2021-05-22T10:01:39.297Z - success: timeline loaded
-2021-05-22T10:01:39.302Z - success: vivo-runtime loaded
-2021-05-22T10:01:39.304Z - success: wechatgame-opendata loaded
-2021-05-22T10:01:39.309Z - success: wechatgame loaded
-2021-05-22T10:01:39.313Z - success: xiaomi-runtime loaded
-2021-05-22T10:01:41.157Z - normal: Initializing Cocos2d
-2021-05-22T10:01:41.518Z - normal: Initializing engine extends
-2021-05-22T10:01:42.214Z - normal: Loading packages
-2021-05-22T10:01:42.217Z - normal: Watching packages
-2021-05-22T10:01:42.321Z - normal: Run Application
-2021-05-22T10:01:42.947Z - info: Cocos Service load base data!
-2021-05-22T10:03:15.340Z - normal: Start building with options : {
+2021-05-28T10:30:05.003Z - normal: Load ~/.CocosCreator/settings.json
+2021-05-28T10:30:05.052Z - normal: Initializing Asset Database
+2021-05-28T10:30:05.055Z - normal: checking language setting...
+2021-05-28T10:30:05.055Z - normal: Language: zh
+2021-05-28T10:30:06.081Z - success: preview server running at http://localhost:7456
+2021-05-28T10:30:06.098Z - success: protocol editor-framework registered
+2021-05-28T10:30:06.098Z - success: protocol app registered
+2021-05-28T10:30:06.098Z - success: protocol theme registered
+2021-05-28T10:30:06.098Z - success: protocol packages registered
+2021-05-28T10:30:06.098Z - success: protocol uuid registerred
+2021-05-28T10:30:06.098Z - success: protocol db registerred
+2021-05-28T10:30:06.098Z - success: protocol thumbnail registerred
+2021-05-28T10:30:06.099Z - success: protocol unpack registerred
+2021-05-28T10:30:06.099Z - success: protocol disable-commonjs registerred
+2021-05-28T10:30:06.931Z - normal: connected!
+2021-05-28T10:30:06.932Z - normal: Check project /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-28T10:30:06.934Z - normal: Initializing project /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-28T10:30:06.949Z - success: adapters loaded
+2021-05-28T10:30:06.952Z - success: asset-db-debugger loaded
+2021-05-28T10:30:07.017Z - success: fb-audience-network loaded
+2021-05-28T10:30:07.057Z - success: fb-live-stream loaded
+2021-05-28T10:30:07.059Z - success: google-play-instant loaded
+2021-05-28T10:30:07.060Z - success: huawei-adapter loaded
+2021-05-28T10:30:07.061Z - success: jkw-adapter loaded
+2021-05-28T10:30:07.062Z - success: jsb-adapter loaded
+2021-05-28T10:30:07.063Z - success: oppo-adapter loaded
+2021-05-28T10:30:07.067Z - success: package-manager loaded
+2021-05-28T10:30:07.069Z - success: qtt-adapter loaded
+2021-05-28T10:30:07.071Z - success: runtime-dev-tools loaded
+2021-05-28T10:30:07.077Z - success: sdkbox loaded
+2021-05-28T10:30:07.081Z - success: ui-kit-preview-extra loaded
+2021-05-28T10:30:07.085Z - success: ui-kit-preview loaded
+2021-05-28T10:30:07.085Z - success: vivo-adapter loaded
+2021-05-28T10:30:07.146Z - success: alipay-minigame loaded
+2021-05-28T10:30:07.205Z - success: assets loaded
+2021-05-28T10:30:07.207Z - success: baidugame-opendata loaded
+2021-05-28T10:30:07.208Z - success: baidugame loaded
+2021-05-28T10:30:07.213Z - success: builder loaded
+2021-05-28T10:30:07.401Z - success: cocos-services loaded
+2021-05-28T10:30:07.406Z - success: console loaded
+2021-05-28T10:30:07.408Z - success: curve-editor loaded
+2021-05-28T10:30:07.419Z - success: fb-instant-games loaded
+2021-05-28T10:30:07.422Z - success: game-window loaded
+2021-05-28T10:30:07.423Z - success: google-instant-games loaded
+2021-05-28T10:30:07.427Z - success: hierarchy loaded
+2021-05-28T10:30:07.430Z - success: huawei-runtime loaded
+2021-05-28T10:30:07.433Z - success: inspector loaded
+2021-05-28T10:30:07.492Z - success: cpk-publish loaded
+2021-05-28T10:30:07.492Z - success: keystore loaded
+2021-05-28T10:30:07.497Z - success: node-library loaded
+2021-05-28T10:30:07.498Z - success: open-recent-items loaded
+2021-05-28T10:30:07.502Z - success: oppo-runtime loaded
+2021-05-28T10:30:07.507Z - success: package-asset loaded
+2021-05-28T10:30:07.508Z - success: preferences loaded
+2021-05-28T10:30:07.511Z - success: project-importer loaded
+2021-05-28T10:30:07.514Z - success: project-settings loaded
+2021-05-28T10:30:07.526Z - success: qtt-runtime loaded
+2021-05-28T10:30:07.530Z - success: scene loaded
+2021-05-28T10:30:07.530Z - success: simulator-debugger loaded
+2021-05-28T10:30:07.531Z - success: sprite-editor loaded
+2021-05-28T10:30:07.535Z - success: store loaded
+2021-05-28T10:30:07.539Z - success: timeline loaded
+2021-05-28T10:30:07.544Z - success: vivo-runtime loaded
+2021-05-28T10:30:07.546Z - success: wechatgame-opendata loaded
+2021-05-28T10:30:07.550Z - success: wechatgame loaded
+2021-05-28T10:30:07.555Z - success: xiaomi-runtime loaded
+2021-05-28T10:30:09.180Z - normal: Initializing Cocos2d
+2021-05-28T10:30:09.504Z - normal: Initializing engine extends
+2021-05-28T10:30:12.331Z - info: Cocos Service load base data!
+2021-05-28T10:30:13.140Z - normal: Loading packages
+2021-05-28T10:30:13.142Z - normal: Watching packages
+2021-05-28T10:30:13.233Z - normal: Run Application
+2021-05-28T10:37:45.267Z - normal: Start building with options : {
   "actualPlatform": "ios",
   "android": {
     "packageName": "org.cocos2d.helloworld"
@@ -139,23 +139,23 @@
   "projectName": "testShare",
   "debugBuildWorker": false
 }
-2021-05-22T10:03:15.342Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
-2021-05-22T10:03:15.342Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
-2021-05-22T10:03:15.428Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
-2021-05-22T10:03:15.481Z - normal: Checked Python Version [2.7.16]
-2021-05-22T10:03:19.968Z - normal: Start building assets
-2021-05-22T10:03:19.968Z - normal: Start spawn build-worker
-2021-05-22T10:03:20.577Z - normal: Finish spawn build-worker
-2021-05-22T10:03:20.578Z - normal: Start init build-worker
-2021-05-22T10:03:22.684Z - normal: Finish init build-worker
-2021-05-22T10:03:22.684Z - normal: Start build-assets in worker
-2021-05-22T10:03:22.719Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
-2021-05-22T10:03:22.888Z - normal: Finish build-assets in worker
-2021-05-22T10:03:22.893Z - normal: Finish building assets
-2021-05-22T10:03:22.894Z - normal: Start building plugin scripts
-2021-05-22T10:03:22.972Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2021-05-22T10:03:22.992Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
-2021-05-22T10:07:30.891Z - normal: Start building with options : {
+2021-05-28T10:37:45.269Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-28T10:37:45.269Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
+2021-05-28T10:37:45.358Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
+2021-05-28T10:37:45.466Z - normal: Checked Python Version [2.7.16]
+2021-05-28T10:37:50.346Z - normal: Start building assets
+2021-05-28T10:37:50.346Z - normal: Start spawn build-worker
+2021-05-28T10:37:51.122Z - normal: Finish spawn build-worker
+2021-05-28T10:37:51.122Z - normal: Start init build-worker
+2021-05-28T10:37:53.273Z - normal: Finish init build-worker
+2021-05-28T10:37:53.273Z - normal: Start build-assets in worker
+2021-05-28T10:37:53.369Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2021-05-28T10:37:53.576Z - normal: Finish build-assets in worker
+2021-05-28T10:37:53.579Z - normal: Finish building assets
+2021-05-28T10:37:53.580Z - normal: Start building plugin scripts
+2021-05-28T10:37:53.647Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-28T10:37:53.669Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
+2021-05-28T10:50:20.073Z - normal: Start building with options : {
   "actualPlatform": "ios",
   "android": {
     "packageName": "org.cocos2d.helloworld"
@@ -224,19 +224,104 @@
   "projectName": "testShare",
   "debugBuildWorker": false
 }
-2021-05-22T10:07:30.892Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
-2021-05-22T10:07:30.892Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
-2021-05-22T10:07:30.893Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
-2021-05-22T10:07:30.933Z - normal: Checked Python Version [2.7.16]
-2021-05-22T10:07:34.623Z - normal: Start building assets
-2021-05-22T10:07:34.624Z - normal: Start spawn build-worker
-2021-05-22T10:07:35.266Z - normal: Finish spawn build-worker
-2021-05-22T10:07:35.266Z - normal: Start init build-worker
-2021-05-22T10:07:37.216Z - normal: Finish init build-worker
-2021-05-22T10:07:37.217Z - normal: Start build-assets in worker
-2021-05-22T10:07:37.249Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
-2021-05-22T10:07:37.405Z - normal: Finish build-assets in worker
-2021-05-22T10:07:37.407Z - normal: Finish building assets
-2021-05-22T10:07:37.408Z - normal: Start building plugin scripts
-2021-05-22T10:07:37.464Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2021-05-22T10:07:37.476Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
+2021-05-28T10:50:20.074Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-28T10:50:20.074Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
+2021-05-28T10:50:20.076Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
+2021-05-28T10:50:20.167Z - normal: Checked Python Version [2.7.16]
+2021-05-28T10:50:25.016Z - normal: Start building assets
+2021-05-28T10:50:25.016Z - normal: Start spawn build-worker
+2021-05-28T10:50:25.676Z - normal: Finish spawn build-worker
+2021-05-28T10:50:25.676Z - normal: Start init build-worker
+2021-05-28T10:50:28.087Z - normal: Finish init build-worker
+2021-05-28T10:50:28.087Z - normal: Start build-assets in worker
+2021-05-28T10:50:28.117Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2021-05-28T10:50:28.263Z - normal: Finish build-assets in worker
+2021-05-28T10:50:28.266Z - normal: Finish building assets
+2021-05-28T10:50:28.266Z - normal: Start building plugin scripts
+2021-05-28T10:50:28.352Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-28T10:50:28.364Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully
+2021-05-28T10:56:02.838Z - normal: Start building with options : {
+  "actualPlatform": "ios",
+  "android": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.helloworld",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "/Users/yunteng/Documents/cocosProject/testObjectC/build",
+  "buildScriptsOnly": false,
+  "debug": true,
+  "dest": "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": "com.test.duohuobi0519"
+  },
+  "mac": {
+    "packageName": "org.cocos2d.helloworld"
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "ios",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "default",
+  "title": "testShare",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {},
+  "xxteaKey": "4df33824-b6e9-40",
+  "zipCompressJs": true,
+  "project": "/Users/yunteng/Documents/cocosProject/testObjectC",
+  "projectName": "testShare",
+  "debugBuildWorker": false
+}
+2021-05-28T10:56:02.839Z - normal: Building /Users/yunteng/Documents/cocosProject/testObjectC
+2021-05-28T10:56:02.839Z - normal: Destination /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default
+2021-05-28T10:56:02.840Z - normal: Delete /Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/subpackages/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/res/**/*,/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/src/**/*
+2021-05-28T10:56:02.883Z - normal: Checked Python Version [2.7.16]
+2021-05-28T10:56:08.353Z - normal: Start building assets
+2021-05-28T10:56:08.354Z - normal: Start spawn build-worker
+2021-05-28T10:56:09.060Z - normal: Finish spawn build-worker
+2021-05-28T10:56:09.060Z - normal: Start init build-worker
+2021-05-28T10:56:11.528Z - normal: Finish init build-worker
+2021-05-28T10:56:11.528Z - normal: Start build-assets in worker
+2021-05-28T10:56:11.555Z - info: Enable "内联所有 SpriteFrame" in native platform will increase the package size used in hot update.
+2021-05-28T10:56:11.754Z - normal: Finish build-assets in worker
+2021-05-28T10:56:11.774Z - normal: Finish building assets
+2021-05-28T10:56:11.775Z - normal: Start building plugin scripts
+2021-05-28T10:56:11.864Z - normal: Generating main.js from /Applications/CocosCreator/Creator/2.3.2/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2021-05-28T10:56:11.873Z - normal: Built to "/Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default" successfully

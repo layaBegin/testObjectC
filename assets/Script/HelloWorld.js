@@ -17,7 +17,9 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
-        //this.label.string = this.text;
+        window.callOCMethoed = (str)=>{
+            console.log(str);
+        }
     },
 
     // called every frame

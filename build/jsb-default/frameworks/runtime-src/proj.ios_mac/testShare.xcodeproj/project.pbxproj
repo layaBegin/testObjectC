@@ -81,9 +81,9 @@
 		D6B061241803AB9F0077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B061231803AB9F0077942B /* CoreMotion.framework */; };
 		FA676C761C71AFA200E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C751C71AFA200E091E3 /* libiconv.dylib */; };
 		FA676C781C71AFAB00E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C771C71AFAB00E091E3 /* libiconv.dylib */; };
-		FCBE25DF26564CD800ED33A6 /* SDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25DE26564CD800ED33A6 /* SDKManager.m */; };
-		FCBE25E726565B4500ED33A6 /* NativeOcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25E626565B4500ED33A6 /* NativeOcClass.m */; };
-		FCFD0A1B2660E6A500A93C34 /* ManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFD0A1A2660E6A500A93C34 /* ManagerTool.m */; };
+		FCBE25DF26564CD800ED33A6 /* SDKManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25DE26564CD800ED33A6 /* SDKManager.mm */; };
+		FCBE25E726565B4500ED33A6 /* NativeOcClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25E626565B4500ED33A6 /* NativeOcClass.mm */; };
+		FCFD0A1B2660E6A500A93C34 /* ManagerTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,12 +202,12 @@
 		FCBE25742655213B00ED33A6 /* Pods_testShareTrace_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_testShareTrace_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBE257A265521C600ED33A6 /* Pods_testShareTrace_desktop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_testShareTrace_desktop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBE25DD26564CD700ED33A6 /* SDKManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKManager.h; sourceTree = "<group>"; };
-		FCBE25DE26564CD800ED33A6 /* SDKManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKManager.m; sourceTree = "<group>"; };
+		FCBE25DE26564CD800ED33A6 /* SDKManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SDKManager.mm; sourceTree = "<group>"; };
 		FCBE25E526565B4500ED33A6 /* NativeOcClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeOcClass.h; sourceTree = "<group>"; };
-		FCBE25E626565B4500ED33A6 /* NativeOcClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeOcClass.m; sourceTree = "<group>"; };
+		FCBE25E626565B4500ED33A6 /* NativeOcClass.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeOcClass.mm; sourceTree = "<group>"; };
 		FCF8DF62265B94D000BEA864 /* testShareTrace-mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "testShareTrace-mobile.entitlements"; sourceTree = "<group>"; };
 		FCFD0A192660E6A500A93C34 /* ManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerTool.h; sourceTree = "<group>"; };
-		FCFD0A1A2660E6A500A93C34 /* ManagerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerTool.m; sourceTree = "<group>"; };
+		FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ManagerTool.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,11 +416,11 @@
 				22CC756221BA527F00FBF2F7 /* SDKWrapper.h */,
 				22CC756121BA527F00FBF2F7 /* SDKWrapper.m */,
 				FCBE25DD26564CD700ED33A6 /* SDKManager.h */,
-				FCBE25DE26564CD800ED33A6 /* SDKManager.m */,
+				FCBE25DE26564CD800ED33A6 /* SDKManager.mm */,
 				FCBE25E526565B4500ED33A6 /* NativeOcClass.h */,
-				FCBE25E626565B4500ED33A6 /* NativeOcClass.m */,
+				FCBE25E626565B4500ED33A6 /* NativeOcClass.mm */,
 				FCFD0A192660E6A500A93C34 /* ManagerTool.h */,
-				FCFD0A1A2660E6A500A93C34 /* ManagerTool.m */,
+				FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */,
 			);
 			name = ios;
 			sourceTree = "<group>";
@@ -668,10 +668,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
-				FCBE25E726565B4500ED33A6 /* NativeOcClass.m in Sources */,
-				FCBE25DF26564CD800ED33A6 /* SDKManager.m in Sources */,
+				FCBE25E726565B4500ED33A6 /* NativeOcClass.mm in Sources */,
+				FCBE25DF26564CD800ED33A6 /* SDKManager.mm in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
-				FCFD0A1B2660E6A500A93C34 /* ManagerTool.m in Sources */,
+				FCFD0A1B2660E6A500A93C34 /* ManagerTool.mm in Sources */,
 				22CC756521BA528000FBF2F7 /* SDKWrapper.m in Sources */,
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
 				4D3EB2581F8F4A6C007DA644 /* jsb_module_register.cpp in Sources */,
