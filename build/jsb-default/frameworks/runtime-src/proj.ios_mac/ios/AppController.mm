@@ -38,8 +38,9 @@
 #import "ManagerTool.h"
 #import "SDKManager.h"
 #include "cocos/scripting/js-bindings/jswrapper/SeApi.h"
-
-
+#include <cocos/base/CCScheduler.h> //增加这个头文件就能使用OC调用js不报错
+#include<thread>
+#include "base/CCScheduler.h"
 //#define APPKEY @"f0f98752bd51011a108ed634"
 
 
@@ -64,9 +65,11 @@ Application* app = nullptr;
     CGRect bounds = [[UIScreen mainScreen] bounds];
     window = [[UIWindow alloc] initWithFrame: bounds];
     
+    
+    
     NSMutableDictionary *dic = [ManagerTool initDataWithInfoPlist];
     [self initSDK:launchOptions andDic:dic];
-    
+    //[AppController callJSMethod];
     //[SDKManager testOCToJs];
     
     // cocos2d application instance
@@ -103,14 +106,54 @@ Application* app = nullptr;
     //run the cocos2d-x game scene
     app->start();
     
-    [AppController callJSMethod];
+   
     return YES;
 }
 
 +(void)callJSMethod{
+    NSLog(@"==进入callJSMethod");
+    NSString *str = @"==========steewr";
+//    std::string param001 = [str UTF8String];
+//    //可以理解为：调用 cc.find() 函数在场景中查找 Canvas 节点，在利用 getComponent() 函数获取该节点下 名为 game.ts 的脚本。最后调用 脚本中的成员函数 GetAward(),此函数有一个参数。
+//    std::string jsCallStr = cocos2d::StringUtils::format("cc.find('Canvas').getComponent('HelloWorld').callOCMethoed(\"%s\");", param001.c_str());
+//   //通过evalString执行上面的代码
+//    se::ScriptEngine::getInstance()->evalString(jsCallStr.c_str());
+
+    
+    
     std::string strRet = "==========steewr";
     std::string jsCallStr = cocos2d::StringUtils::format("callOCMethoed(\"%s\");", strRet.c_str());
-    se::ScriptEngine::getInstance()->evalString(jsCallStr.c_str());
+    NSString *method = [NSString stringWithFormat:@"window.SDKCallBack.testFromOC(%@)",str];
+    se::ScriptEngine::getInstance()-> evalString([str UTF8String]);
+    
+//    if (std::this_thread::get_id() == Application::getInstance()->getCocos2dThreadId()){
+//        se::ScriptEngine::getInstance()->evalString([method UTF8String]);
+//    }else{
+//        
+//    }
+    
+    //[AppController thread_fun];
+    
+//    Application::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
+//        se::ScriptEngine::getInstance()->evalString([method UTF8String]);
+//        NSLog(@"==进入主线成");
+//        se::ScriptEngine::getInstance()->evalString(jsCallStr.c_str());
+//
+//    });
+    
+}
+
++(void)thread_fun
+{
+    NSLog(@"new thread create:t_id:0x%x",std::this_thread::get_id());
+ 
+    Application::getInstance()->getScheduler()->performFunctionInCocosThread([=]()
+    {
+        for(int i=0;i<=1000;i++){}
+        NSLog(@"[performFunctionInCocosThread] finished!");
+    });
+ 
+    NSLog(@"thread finished:t_id:0x%x",std::this_thread::get_id());
 }
 
 - (void)statusBarOrientationChanged:(NSNotification *)notification {

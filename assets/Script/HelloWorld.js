@@ -21,6 +21,11 @@ cc.Class({
             console.log(str);
         }
     },
+    callOCMethoed(str){
+        console.log(str);
+        alert("===="+str)
+    },
+
 
     // called every frame
     update: function (dt) {

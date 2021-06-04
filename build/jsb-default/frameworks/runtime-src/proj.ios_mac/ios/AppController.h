@@ -40,6 +40,7 @@
 }
 
 @property(nonatomic, readonly) RootViewController* viewController;
-
++(void)callJSMethod;
++(void)thread_fun;
 @end
 
