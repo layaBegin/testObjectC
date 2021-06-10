@@ -83,6 +83,7 @@
 		FA676C781C71AFAB00E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C771C71AFAB00E091E3 /* libiconv.dylib */; };
 		FCBE25DF26564CD800ED33A6 /* SDKManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25DE26564CD800ED33A6 /* SDKManager.mm */; };
 		FCBE25E726565B4500ED33A6 /* NativeOcClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25E626565B4500ED33A6 /* NativeOcClass.mm */; };
+		FCF4630726721987000F4D18 /* Person+NativeUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4630626721987000F4D18 /* Person+NativeUIManager.m */; };
 		FCFD0A1B2660E6A500A93C34 /* ManagerTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */; };
 /* End PBXBuildFile section */
 
@@ -205,6 +206,8 @@
 		FCBE25DE26564CD800ED33A6 /* SDKManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SDKManager.mm; sourceTree = "<group>"; };
 		FCBE25E526565B4500ED33A6 /* NativeOcClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeOcClass.h; sourceTree = "<group>"; };
 		FCBE25E626565B4500ED33A6 /* NativeOcClass.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeOcClass.mm; sourceTree = "<group>"; };
+		FCF4630526721987000F4D18 /* Person+NativeUIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+NativeUIManager.h"; sourceTree = "<group>"; };
+		FCF4630626721987000F4D18 /* Person+NativeUIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+NativeUIManager.m"; sourceTree = "<group>"; };
 		FCF8DF62265B94D000BEA864 /* testShareTrace-mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "testShareTrace-mobile.entitlements"; sourceTree = "<group>"; };
 		FCFD0A192660E6A500A93C34 /* ManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerTool.h; sourceTree = "<group>"; };
 		FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ManagerTool.mm; sourceTree = "<group>"; };
@@ -421,6 +424,8 @@
 				FCBE25E626565B4500ED33A6 /* NativeOcClass.mm */,
 				FCFD0A192660E6A500A93C34 /* ManagerTool.h */,
 				FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */,
+				FCF4630526721987000F4D18 /* Person+NativeUIManager.h */,
+				FCF4630626721987000F4D18 /* Person+NativeUIManager.m */,
 			);
 			name = ios;
 			sourceTree = "<group>";
@@ -668,6 +673,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
+				FCF4630726721987000F4D18 /* Person+NativeUIManager.m in Sources */,
 				FCBE25E726565B4500ED33A6 /* NativeOcClass.mm in Sources */,
 				FCBE25DF26564CD800ED33A6 /* SDKManager.mm in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
