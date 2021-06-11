@@ -83,7 +83,10 @@
 		FA676C781C71AFAB00E091E3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA676C771C71AFAB00E091E3 /* libiconv.dylib */; };
 		FCBE25DF26564CD800ED33A6 /* SDKManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25DE26564CD800ED33A6 /* SDKManager.mm */; };
 		FCBE25E726565B4500ED33A6 /* NativeOcClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCBE25E626565B4500ED33A6 /* NativeOcClass.mm */; };
-		FCF4630726721987000F4D18 /* Person+NativeUIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF4630626721987000F4D18 /* Person+NativeUIManager.m */; };
+		FCF4630A26721BB2000F4D18 /* NativeUIManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCF4630926721BB2000F4D18 /* NativeUIManager.mm */; };
+		FCF4630F26722119000F4D18 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF4630C26722118000F4D18 /* btn.png */; };
+		FCF4631026722119000F4D18 /* home_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF4630D26722118000F4D18 /* home_bg.png */; };
+		FCF4631126722119000F4D18 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCF4630E26722118000F4D18 /* bg.jpg */; };
 		FCFD0A1B2660E6A500A93C34 /* ManagerTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */; };
 /* End PBXBuildFile section */
 
@@ -206,8 +209,11 @@
 		FCBE25DE26564CD800ED33A6 /* SDKManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SDKManager.mm; sourceTree = "<group>"; };
 		FCBE25E526565B4500ED33A6 /* NativeOcClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeOcClass.h; sourceTree = "<group>"; };
 		FCBE25E626565B4500ED33A6 /* NativeOcClass.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeOcClass.mm; sourceTree = "<group>"; };
-		FCF4630526721987000F4D18 /* Person+NativeUIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+NativeUIManager.h"; sourceTree = "<group>"; };
-		FCF4630626721987000F4D18 /* Person+NativeUIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+NativeUIManager.m"; sourceTree = "<group>"; };
+		FCF4630826721BB2000F4D18 /* NativeUIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NativeUIManager.h; path = ios/NativeUIManager.h; sourceTree = "<group>"; };
+		FCF4630926721BB2000F4D18 /* NativeUIManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NativeUIManager.mm; path = ios/NativeUIManager.mm; sourceTree = "<group>"; };
+		FCF4630C26722118000F4D18 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn.png; path = "../../../../../../../../BigPlayVertical/build/jsb-default/frameworks/runtime-src/proj.ios_mac/ios/btn.png"; sourceTree = "<group>"; };
+		FCF4630D26722118000F4D18 /* home_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_bg.png; path = "../../../../../../../../BigPlayVertical/build/jsb-default/frameworks/runtime-src/proj.ios_mac/ios/home_bg.png"; sourceTree = "<group>"; };
+		FCF4630E26722118000F4D18 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = "../../../../../../../../BigPlayVertical/build/jsb-default/frameworks/runtime-src/proj.ios_mac/ios/bg.jpg"; sourceTree = "<group>"; };
 		FCF8DF62265B94D000BEA864 /* testShareTrace-mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "testShareTrace-mobile.entitlements"; sourceTree = "<group>"; };
 		FCFD0A192660E6A500A93C34 /* ManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerTool.h; sourceTree = "<group>"; };
 		FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ManagerTool.mm; sourceTree = "<group>"; };
@@ -409,6 +415,9 @@
 				1AFFCD841F7A5DCD00628F2C /* Images.xcassets */,
 				40CEC424212BDAB0004BCE66 /* LaunchScreen.storyboard */,
 				1AFFCD831F7A5DCD00628F2C /* LaunchScreenBackground.png */,
+				FCF4630E26722118000F4D18 /* bg.jpg */,
+				FCF4630C26722118000F4D18 /* btn.png */,
+				FCF4630D26722118000F4D18 /* home_bg.png */,
 				509D4AAB17EBB2AB00697056 /* AppController.h */,
 				509D4AAC17EBB2AB00697056 /* AppController.mm */,
 				509D4AB717EBB2AB00697056 /* Info.plist */,
@@ -424,8 +433,8 @@
 				FCBE25E626565B4500ED33A6 /* NativeOcClass.mm */,
 				FCFD0A192660E6A500A93C34 /* ManagerTool.h */,
 				FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */,
-				FCF4630526721987000F4D18 /* Person+NativeUIManager.h */,
-				FCF4630626721987000F4D18 /* Person+NativeUIManager.m */,
+				FCF4630826721BB2000F4D18 /* NativeUIManager.h */,
+				FCF4630926721BB2000F4D18 /* NativeUIManager.mm */,
 			);
 			name = ios;
 			sourceTree = "<group>";
@@ -577,6 +586,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF4631126722119000F4D18 /* bg.jpg in Resources */,
 				288D4373225B43BE0075FBAB /* subpackages in Resources */,
 				4033CDC020E493CF00DAA37B /* jsb-adapter in Resources */,
 				1AFFCD871F7A5DCF00628F2C /* LaunchScreenBackground.png in Resources */,
@@ -584,9 +594,11 @@
 				1AD7E0A818C9DB93004817A6 /* main.js in Resources */,
 				40CEC429212BDB03004BCE66 /* Localizable.strings in Resources */,
 				1AFFCD851F7A5DCF00628F2C /* Images.xcassets in Resources */,
+				FCF4631026722119000F4D18 /* home_bg.png in Resources */,
 				40CEC422212BDAB0004BCE66 /* LaunchScreen.storyboard in Resources */,
 				C03780EB18BEE0E400FE4F13 /* src in Resources */,
 				C0799CB918BAE62000E9C828 /* res in Resources */,
+				FCF4630F26722119000F4D18 /* btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,7 +685,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
-				FCF4630726721987000F4D18 /* Person+NativeUIManager.m in Sources */,
+				FCF4630A26721BB2000F4D18 /* NativeUIManager.mm in Sources */,
 				FCBE25E726565B4500ED33A6 /* NativeOcClass.mm in Sources */,
 				FCBE25DF26564CD800ED33A6 /* SDKManager.mm in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,

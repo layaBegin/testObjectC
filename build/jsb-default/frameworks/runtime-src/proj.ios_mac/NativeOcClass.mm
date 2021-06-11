@@ -111,7 +111,7 @@
     imagePickerController.allowsEditing = YES;
     //显示选取照片控制器
     [self presentViewController:imagePickerController animated:YES completion:nil];
-    return; imagePickerController
+    return imagePickerController;
 }
 
 @end

@@ -322,6 +322,70 @@
             endingLineNumber = "21"
             landmarkName = "+getSharetraceParam"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99294673-437D-476A-BAA5-EA8FB6C36760 - d11d8592612ad881"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32+[SDKManager getSharetraceParam]_block_invoke"
+                  moduleName = "testShareTrace-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/frameworks/runtime-src/proj.ios_mac/SDKManager.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "99294673-437D-476A-BAA5-EA8FB6C36760 - 4acf360304004c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32+[SDKManager getSharetraceParam]_block_invoke.4"
+                  moduleName = "testShareTrace-mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yunteng/Documents/cocosProject/testObjectC/build/jsb-default/frameworks/runtime-src/proj.ios_mac/SDKManager.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A7D6BFF-BE06-4366-A29F-3781F2D9E35F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ios/NativeUIManager.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "-onHomeBtnTouchUp:event:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "617B415B-2722-4E2F-B1EF-A5403CB3084A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ios/NativeUIManager.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "-onHomeBtnTouchUp:event:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
