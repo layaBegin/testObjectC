@@ -87,6 +87,7 @@
 		FCF4630F26722119000F4D18 /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF4630C26722118000F4D18 /* btn.png */; };
 		FCF4631026722119000F4D18 /* home_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF4630D26722118000F4D18 /* home_bg.png */; };
 		FCF4631126722119000F4D18 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCF4630E26722118000F4D18 /* bg.jpg */; };
+		FCF4631426736223000F4D18 /* ImagePickerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCF4631326736223000F4D18 /* ImagePickerController.mm */; };
 		FCFD0A1B2660E6A500A93C34 /* ManagerTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */; };
 /* End PBXBuildFile section */
 
@@ -214,6 +215,8 @@
 		FCF4630C26722118000F4D18 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn.png; path = "../../../../../../../../BigPlayVertical/build/jsb-default/frameworks/runtime-src/proj.ios_mac/ios/btn.png"; sourceTree = "<group>"; };
 		FCF4630D26722118000F4D18 /* home_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_bg.png; path = "../../../../../../../../BigPlayVertical/build/jsb-default/frameworks/runtime-src/proj.ios_mac/ios/home_bg.png"; sourceTree = "<group>"; };
 		FCF4630E26722118000F4D18 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = "../../../../../../../../BigPlayVertical/build/jsb-default/frameworks/runtime-src/proj.ios_mac/ios/bg.jpg"; sourceTree = "<group>"; };
+		FCF4631226736223000F4D18 /* ImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImagePickerController.h; path = ios/ImagePickerController.h; sourceTree = "<group>"; };
+		FCF4631326736223000F4D18 /* ImagePickerController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ImagePickerController.mm; path = ios/ImagePickerController.mm; sourceTree = "<group>"; };
 		FCF8DF62265B94D000BEA864 /* testShareTrace-mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "testShareTrace-mobile.entitlements"; sourceTree = "<group>"; };
 		FCFD0A192660E6A500A93C34 /* ManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerTool.h; sourceTree = "<group>"; };
 		FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ManagerTool.mm; sourceTree = "<group>"; };
@@ -435,6 +438,8 @@
 				FCFD0A1A2660E6A500A93C34 /* ManagerTool.mm */,
 				FCF4630826721BB2000F4D18 /* NativeUIManager.h */,
 				FCF4630926721BB2000F4D18 /* NativeUIManager.mm */,
+				FCF4631226736223000F4D18 /* ImagePickerController.h */,
+				FCF4631326736223000F4D18 /* ImagePickerController.mm */,
 			);
 			name = ios;
 			sourceTree = "<group>";
@@ -692,6 +697,7 @@
 				FCFD0A1B2660E6A500A93C34 /* ManagerTool.mm in Sources */,
 				22CC756521BA528000FBF2F7 /* SDKWrapper.m in Sources */,
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
+				FCF4631426736223000F4D18 /* ImagePickerController.mm in Sources */,
 				4D3EB2581F8F4A6C007DA644 /* jsb_module_register.cpp in Sources */,
 				509D4ABC17EBB2AB00697056 /* AppController.mm in Sources */,
 			);

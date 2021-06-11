@@ -43,6 +43,10 @@ export default class Helloworld extends cc.Component {
         }else if (param === "qiu"){
             let scriptStr = "cc.find('Canvas').getComponent('Helloworld').onBackHallFromGame();"
             this.createNativeButton(scriptStr)
+        }else if (param === "takephoto"){
+            if (cc.sys.isNative && cc.sys.os === cc.sys.OS_IOS) {
+                jsb.reflection.callStaticMethod("ImagePickerController", "TakePhoto");
+            }
         }
     }
 
